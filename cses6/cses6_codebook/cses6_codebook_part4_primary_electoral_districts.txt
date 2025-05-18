@@ -1,0 +1,414 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 6 (2021-2026)
+
+                CODEBOOK PART 4: PRIMARY ELECTORAL DISTRICTS
+
+                FIRST ADVANCE RELEASE - DECEMBER 17, 2024
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 6
+FIRST ADVANCE RELEASE [dataset and documentation]. December 17, 2024 
+version. doi:10.7804/cses.module6.2024-12-17.
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-1760058 and
+SES-2214278, the GESIS - Leibniz Institute for the Social Sciences, 
+the University of Michigan, in-kind support of participating election
+studies, the many organizations that sponsor planning meetings and 
+conferences, and the numerous organizations that fund national 
+election studies by CSES Collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+
+
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+
+
+))) LIST OF TABLES IN CODEBOOK PART 4
+
+
+))) OVERVIEW OF "CODEBOOK PART 4: PRIMARY ELECTORAL DISTRICTS"
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+
+
+))) PRIMARY ELECTORAL DISTRICTS CLASSIFICATIONS FOR CSES MODULE 6 BY POLITY
+    >>> PRIMARY ELECTORAL DISTRICTS: AUSTRALIA (2022)
+    >>> PRIMARY ELECTORAL DISTRICTS: BRAZIL (2022)
+    >>> PRIMARY ELECTORAL DISTRICTS: DENMARK (2022)
+    >>> PRIMARY ELECTORAL DISTRICTS: FRANCE (2022)
+    >>> PRIMARY ELECTORAL DISTRICTS: MONTENEGRO (2023)
+    >>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2022)
+    >>> PRIMARY ELECTORAL DISTRICTS: TURKIYE (2023)
+
+
+===========================================================================
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+===========================================================================
+
+This dataset and all accompanying documentation is the "First Advance 
+Release" of CSES Module 6 (2021-2026).
+
+An Advance Release is a preliminary version of this CSES product. It thus 
+lacks some of the checking, cleaning, processing, documentation, data, and 
+variables that we anticipate in the Full Release of this product. The 
+product is still in development, and data will be added gradually. Many 
+election studies and variables that will eventually be present in the CSES 
+Module 6 Full Release are unavailable in this file. Advance Releases are 
+provided as a service to the CSES user community for those analysts who find 
+it valuable to work with preliminary versions of the dataset. 
+
+Users should anticipate future changes and improvements to the naming, data, 
+and documentation of variables and election studies that appear in an 
+advanced release file. If users wish to re-use their programming syntax/code 
+on a future release of this product, we recommend that the code be written 
+to accommodate these potential changes.
+
+Users of the Advance Release may also wish to monitor the errata for CSES 
+Module 6 on the CSES website to check for known errors that may impact their 
+analyses. To view errata for CSES Module 6, go to Data Download on the CSES 
+website, navigate to the CSES Module 6 download page, and click on the 
+Errata link in the white box to the right of the page.
+
+We hope that until the Full Release of CSES Module 6 is available, users 
+will find this and future CSES Module 6 Advance Releases helpful in their 
+work. 
+
+
+===========================================================================
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+===========================================================================
+
+We recommend that researchers become familiar with the CSES design, units 
+of analysis, documentation, and dataset weights before beginning their 
+investigations. For instance, while the set of respondents appearing within
+each election study represents their respective nations, the group of 
+nations that appear within CSES is not a random sample of countries 
+worldwide. Furthermore, while many election studies include 1,000 or so 
+respondents, other election studies may consist of over 10,000 respondents. 
+Some nations will have studies of more than one election in a CSES module,
+and occasionally there will be two independent studies of a single 
+election. Last, some election studies include over samples of specific 
+sub-populations or would otherwise benefit from use of the included weight
+variables. We hope you find our website and documentation useful as you 
+proceed with your work, and welcome any questions or suggestions you have.
+
+
+===========================================================================
+))) LIST OF TABLES IN CODEBOOK PART 4
+===========================================================================
+
+Below, we list the Tables located in CSES Codebook Part 4. Tables can be 
+accessed in the electronic version of the CSES Codebook by searching for
+"+++". 
+
+   - TOTAL NUMBER OF ELECTORAL DISTRICTS PER POLITY AND TOTAL NUMBER OF 
+     ELECTORAL DISTRICTS REPRESENTED IN CSES DATA
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 4: PRIMARY ELECTORAL DISTRICTS" 
+===========================================================================
+
+Part 4 of the CSES Codebook presents the primary electoral districts by
+polity, which refer to the constituency/riding/district in which an 
+individual respondent in a survey votes. 
+These value labels refer to coders reported in variable 
+F2019 "PRIMARY ELECTORAL DISTRICT" detailed in CSES Codebook Part 2. 
+
+These districts are sometimes identified "indirectly," through postal 
+codes, etc... by the CSES Secretariat with the assistance of the 
+national Collaborators. Where postal codes, etc., were ambiguous,
+cases are coded missing. Wherever possible, CSES uses the labels used 
+by each country's electoral commission. 
+
+Only districts where respondents are in the CSES data are listed (see 
+second column of Table below). Polities are listed in alphabetical order. 
+
+         | +++ TABLE: TOTAL NUMBER OF ELECTORAL DISTRICTS PER POLITY AND
+         |            TOTAL NUMBER OF ELECTORAL DISTRICTS REPRESENTED IN
+         |            CSES DATA
+         |
+         |                       Total number of      Total number of       
+         | POLITY (ELEC YEAR)   Electoral Districts Electoral Districts
+         |                          in Polity           in CSES (%)
+         | -------------------------------------------------------------
+         | AUSTRALIA (2022)            151              151 (100%)
+         | BRAZIL (2022)                27               27 (100%)
+         | DENMARK (2022)               10               10 (100%)
+         | FRANCE (2022)                 1                1 (100%)
+         | MONTENEGRO (2023)             1                1 (100%)
+         | PORTUGAL (2022)              22               17  (77%)
+         | TURKIYE (2023)               87               54  (62%)
+         | -------------------------------------------------------------
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+===========================================================================
+
+In the CSES MODULE 6 dataset, all variables begin with the letter "F" 
+(F being the sixth letter of the English alphabet and thus signifying 
+MODULE 6).
+
+The CSES codebook is especially extensive and users are advised that the 
+best way to navigate it is electronically. It is a .txt format which 
+allows it to be accessed via a variety of programs. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header 
+
+>>> = Sub-section Header 1
+
+<<>> = Sub-section Header 2 
+
++++ = Tables
+
+CSES QUESTION CLASSIFICATION = For survey level variables only, CSES  
+Question Classification details whether the variable is part of the CSES  
+Core component, which are questions asked repeatedly in CSES Modules, 
+whether a variable is part of the CSES Module Theme component, which are  
+questions specific to the Module Theme under exploration and might not be 
+included in CSES repeatedly, or whether a variable is a Derivative Variable, 
+which is explained below. 
+
+VARIABLE NOTES = Notes for particular variables 
+
+ELECTION STUDY NOTES = Notes for a particular election study  
+
+DERIVATIVE VARIABLE = Highlights a variable derived from another 
+variable or variables within the CSES.
+
+POTENTIAL POLITY LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at polity level.
+
+POTENTIAL REGIONAL LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at regional level.
+
+POTENTIAL TIME BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging by time.
+
+POTENTIAL PARTY/COALITION LEVEL BRIDGING IDENTIFIER = Highlights a variable 
+that may be used for data bridging at party/coalition level.
+
+POTENTIAL CSES PRODUCT BRIDGING IDENTIFIER = Highlights a variable 
+that may be used for data bridging with other CSES products.
+
+For further details on the CSES MODULE 6 documentation, users are advised
+to consult Part 1 of the CSES Codebook. 
+
+
+===========================================================================
+))) PRIMARY ELECTORAL DISTRICTS CLASSIFICATIONS FOR CSES MODULE 6 BY POLITY
+===========================================================================
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: AUSTRALIA (2022)
+---------------------------------------------------------------------------
+
+00001. Banks                       00077. Maribyrnong
+00002. Barton                      00078. McEwen
+00003. Bennelong                   00079. Melbourne
+00004. Berowra                     00080. Menzies
+00005. Blaxland                    00081. Monash
+00006. Bradfield                   00082. Nicholls
+00007. Calare                      00083. Scullin
+00008. Chifley                     00084. Wannon
+00009. Cook                        00085. Wills
+00010. Cowper                      00086. Blair
+00011. Cunningham                  00087. Bonner
+00012. Dobell                      00088. Bowman
+00013. Eden-Monaro                 00089. Brisbane
+00014. Farrer                      00090. Capricornia
+00015. Fowler                      00091. Dawson
+00016. Gilmore                     00092. Dickson
+00017. Grayndler                   00093. Fadden
+00018. Greenway                    00094. Fairfax
+00019. Hughes                      00095. Fisher
+00020. Hume                        00096. Flynn
+00021. Hunter                      00097. Forde
+00022. Kingsford Smith             00098. Griffith
+00023. Lindsay                     00099. Groom
+00024. Lyne                        00100. Herbert
+00025. Macarthur                   00101. Hinkler
+00026. Mackellar                   00102. Kennedy
+00027. Macquarie                   00103. Leichhardt
+00028. McMahon                     00104. Lilley
+00029. Mitchell                    00105. Longman
+00030. Newcastle                   00106. Maranoa
+00031. New England                 00107. McPherson
+00032. North Sydney                00108. Moncrieff
+00033. Page                        00109. Moreton
+00034. Parkes                      00110. Oxley
+00035. Parramatta                  00111. Petrie
+00036. Paterson                    00112. Rankin
+00037. Reid                        00113. Ryan
+00038. Richmond                    00114. Wide Bay
+00039. Riverina                    00115. Wright
+00040. Robertson                   00116. Adelaide
+00041. Shortland                   00117. Barker
+00042. Sydney                      00118. Boothby
+00043. Warringah                   00119. Grey
+00044. Watson                      00120. Hindmarsh
+00045. Wentworth                   00121. Kingston
+00046. Werriwa                     00122. Makin
+00047. Whitlam                     00123. Mayo
+00048. Aston                       00124. Spence
+00049. Ballarat                    00125. Sturt
+00050. Bendigo                     00126. Brand
+00051. Bruce                       00127. Burt
+00052. Calwell                     00128. Canning
+00053. Casey                       00129. Cowan
+00054. Chisholm                    00130. Curtin
+00055. Cooper                      00131. Durack
+00056. Corangamite                 00132. Forrest
+00057. Corio                       00133. Fremantle
+00058. Deakin                      00134. Hasluck
+00059. Dunkley                     00135. Moore
+00060. Flinders                    00136. O'Connor
+00061. Fraser                      00137. Pearce
+00062. Gellibrand                  00138. Perth
+00063. Gippsland                   00139. Swan
+00064. Goldstein                   00140. Tangney
+00065. Gorton                      00141. Bass
+00066. Higgins                     00142. Braddon
+00067. Holt                        00143. Clark
+00068. Hotham                      00144. Franklin
+00069. Indi                        00145. Lyons
+00070. Isaacs                      00146. Bean
+00071. Jagajaga                    00147. Canberra
+00072. Kooyong                     00148. Fenner
+00073. Lalor                       00149. Lingiari
+00074. La Trobe                    00150. Solomon
+00075. Macnamara                   00151. Hawke
+00076. Mallee                      
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: BRAZIL (2022)
+---------------------------------------------------------------------------
+
+00001.  Alagoas                    00015.  Para
+00002.  Bahia                      00016.  Espirito Santo
+00003.  Ceara                      00017.  Minas Gerais
+00004.  Maranhao                   00018.  Rio de Janeiro
+00005.  Paraiba                    00019.  Sao Paulo
+00006.  Pernambuco                 00020.  Parana
+00007.  Piaui                      00021.  Rio Grande do Sul
+00008.  Rio Grande do Norte        00022.  Santa Catarina
+00009.  Sergipe                    00023.  Acre
+00010.  Amazonas                   00024.  Amapa
+00011.  Distrito Federal           00025.  Rondonia
+00012.  Goias                      00026.  Roraima
+00013.  Mato Grosso                00027.  Tocantins
+00014.  Mato Grosso do Sul
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: DENMARK (2022)
+---------------------------------------------------------------------------
+
+00001.  Copenhagen City            00006.  Fyn
+00002.  Copenhagen County          00007.  South Jutland
+00003.  North Zealand              00008.  East Jutland
+00004.  Bornholm                   00009.  West Jutland
+00005.  Zealand                    00010.  North Jutland
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: FRANCE (2022)
+---------------------------------------------------------------------------
+
+99996.     NATIONWIDE DISTRICT 
+
+
+         | ELECTION STUDY NOTES - FRANCE (2022): PRIMARY ELECTORAL
+         |                                       DISTRICTS
+         |
+         | France operates a nationwide electoral district for Presidential
+         | elections.  
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: MONTENEGRO (2023)
+---------------------------------------------------------------------------
+
+99996.     NATIONWIDE DISTRICT
+
+
+         | ELECTION STUDY NOTES - MONTENEGRO (2023): PRIMARY ELECTORAL
+         |                                           DISTRICTS
+         |
+         | Montenegro operates a nationwide electoral district. 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2022)
+---------------------------------------------------------------------------
+
+00001.  Aveiro                        00011.  Lisboa
+00002.  Beja                          00012.  Portalegre
+00003.  Braga                         00013.  Porto
+00004.  Braganca                      00014.  Santarem
+00005.  Castelo Branco                00015.  Setubal
+00006.  Coimbra                       00016.  Viana do Castelo
+00007.  Evora                         00017.  Vila Real
+00008.  Faro                          00018.  Viseu
+00010.  Leiria
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: TURKIYE (2023)
+---------------------------------------------------------------------------
+
+00001.  Adana                         00028.  Istanbul-3 
+00002.  Afyonkarahisar                00029.  Izmir-1  
+00003.  Amasya                        00030.  Izmir-2 
+00004.  Ankara-1                      00031.  Karaman
+00005.  Ankara-2                      00032.  Kars    
+00006.  Ankara-3                      00033.  Kayseri
+00007.  Antalya                       00034.  Kilis
+00008.  Aydin                         00035.  Kirikkale
+00009.  Balikesir                     00036.  Kirklareli
+00010.  Batman                        00037.  Kocaeli
+00011.  Bayburt                       00038.  Konya
+00012.  Bilecik                       00039.  Malatya
+00013.  Bolu                          00040.  Manisa
+00014.  Bursa-1                       00041.  Mardin
+00015.  Bursa-2                       00042.  Mersin
+00016.  Canakkale                     00043.  Mugla
+00017.  Cankiri                       00044.  Mus
+00018.  Denizli                       00045.  Nevsehir
+00019.  Diyarbakir                    00046.  Rize
+00020.  Edirne                        00047.  Samsun
+00021.  Elazig                        00048.  Sanliurfa
+00022.  Erzurum                       00049.  Sivas 
+00023.  Eskisehir                     00050.  Tekirdag
+00024.  Gaziantep                     00051.  Trabzon
+00025.  Isparta                       00052.  Van 
+00026.  Istanbul-1                    00053.  Yalova
+00027.  Istanbul-2                    00054.  Zonguldak
+
+
+//END OF FILE

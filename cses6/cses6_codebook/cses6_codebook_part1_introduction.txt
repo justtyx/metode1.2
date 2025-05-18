@@ -1,0 +1,1870 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 6 (2021-2026)
+
+                      CODEBOOK PART 1: INTRODUCTION
+                          
+                 FIRST ADVANCE RELEASE - DECEMBER 17, 2024
+ 
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 6
+FIRST ADVANCE RELEASE [dataset and documentation]. December 17, 2024 
+version. doi:10.7804/cses.module6.2024-12-17. 
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-1760058 and
+SES-2214278, the GESIS - Leibniz Institute for the Social Sciences, 
+the University of Michigan, in-kind support of participating election 
+studies, the many organizations that sponsor planning meetings and 
+conferences, and the numerous organizations that fund national 
+election studies by CSES Collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+
+
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+
+
+))) OVERVIEW OF "CODEBOOK PART 1: INTRODUCTION" 
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+
+
+))) LIST OF TABLES IN CODEBOOK PART 1
+
+
+))) THE COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) PROJECT OVERVIEW
+    >>> CSES PROJECT PROFILE
+    >>> CSES MODULE 6 STUDY DESCRIPTION - ABSTRACT
+    >>> CSES MODULE 6 PLANNING COMMITTEE
+    >>> CSES MODULE 7 PLANNING COMMITTEE
+    >>> CSES MODULE 6 COLLABORATORS
+    >>> CSES SECRETARIAT
+
+
+))) CSES MODULE 6 - HOW TO ACCESS?
+    >>> THE CSES CODEBOOK
+    >>> THE CSES DATA FILES
+
+
+))) CSES MODULE 6 STUDY
+    >>> OVERVIEW OF CSES MODULE 6 DATA FILE PARTICULARS
+    >>> LIST OF ELECTION STUDIES INCLUDED IN CSES MODULE 6
+    >>> MICRO-LEVEL (SURVEY) COMPONENT
+    >>> CSES MODULE 6 COLLABORATOR INSTRUCTIONS FOR THE ADMINISTRATION
+        OF THE CSES QUESTIONNAIRE
+    >>> DISTRICT-LEVEL COMPONENT
+    >>> MACRO-LEVEL COMPONENT
+
+
+))) CSES MODULE 6 DOCUMENTATION - WHAT'S AVAILABLE AND HOW TO USE?
+    >>> CSES CODEBOOK OVERVIEW
+    >>> CSES CODEBOOK CONVENTIONS
+    >>> CSES CODEBOOK - VARIABLE NOTES AND ELECTION STUDY NOTES
+    >>> CSES ORIGINAL QUESTIONNAIRE FOR MODULE 6
+    >>> CSES - ADDITIONAL DOCUMENTATION
+
+    
+))) CSES MODULE 6 STUDY DATA AND CODEBOOK: ADDITIONAL INFORMATION
+    >>> CODING OF PARTIES/COALITIONS & LEADERS 
+    >>> CSES DATA BRIDGING: NEW FRONTIERS IN DATA LINKAGE
+    >>> DERIVATIVE VARIABLES   
+    >>> IDENTIFICATION VARIABLES
+    >>> MISSING DATA
+    >>> WEIGHTS
+    >>> FREEDOM STATUS OF ELECTIONS  
+    >>> PROCESSING CHECKS OF MODULE 6 DATASET BY THE CSES SECRETARIAT
+
+
+))) CSES MODULE 6 BIBLIOGRAPHY
+
+
+===========================================================================
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+===========================================================================
+
+This dataset and all accompanying documentation is the "First Advance 
+Release" of CSES Module 6 (2021-2026).
+
+An Advance Release is a preliminary version of this CSES product. It thus 
+lacks some of the checking, cleaning, processing, documentation, data, and 
+variables that we anticipate in the Full Release of this product. The 
+product is still in development, and data will be added gradually. Many 
+election studies and variables that will eventually be present in the CSES 
+Module 6 Full Release are unavailable in this file. Advance Releases are 
+provided as a service to the CSES user community for those analysts who find 
+it valuable to work with preliminary versions of the dataset. 
+
+Users should anticipate future changes and improvements to the naming, data, 
+and documentation of variables and election studies that appear in an 
+advanced release file. If users wish to re-use their programming syntax/code 
+on a future release of this product, we recommend that the code be written 
+to accommodate these potential changes.
+
+Users of the Advance Release may also wish to monitor the errata for CSES 
+Module 6 on the CSES website to check for known errors that may impact their 
+analyses. To view errata for CSES Module 6, go to Data Download on the CSES 
+website, navigate to the CSES Module 6 download page, and click on the 
+Errata link in the white box to the right of the page.
+
+We hope that until the Full Release of CSES Module 6 is available, users 
+will find this and future CSES Module 6 Advance Releases helpful in their 
+work.
+
+
+===========================================================================
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+===========================================================================
+
+We recommend that researchers become familiar with the CSES design, units 
+of analysis, documentation, and dataset weights before beginning their 
+investigations. For instance, while the set of respondents appearing within
+each election study represents their respective nations, the group of 
+nations that appear within CSES is not a random sample of countries 
+worldwide. Furthermore, while many election studies include 1,000 or so 
+respondents, other election studies may consist of over 10,000 respondents. 
+Some nations will have studies of more than one election in a CSES module,
+and occasionally there will be two independent studies of a single 
+election. Last, some election studies include over samples of specific 
+sub-populations or would otherwise benefit from use of the included weight
+variables. We hope you find our website and documentation useful as you 
+proceed with your work, and welcome any questions or suggestions you have.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 1: INTRODUCTION"
+===========================================================================
+
+Part 1 of the Codebook provides an extensive overview of the CSES MODULE 6
+study. It includes general details about the project, the project's 
+governing board (the Planning Committee), information on the national 
+Collaborators who administered CSES MODULE 6 in their national election 
+study, and on the activities of the CSES Secretariat - the operational hub
+of the project. 
+
+Further, extensive information about the CSES MODULE 6 datafile particulars,
+how to access CSES data, CSES documentation conventions, and CSES coding 
+conventions are also provided. In addition, Codebook Part 1 offers guidance
+on the different components of a CSES dataset (micro, district, and macro-
+level data), and derivative variables and data bridging variables available 
+to users. Part 1 of the Codebook closes with the project bibliography, a 
+non-exhaustive list of references consulted by the CSES Secretariat for 
+processing CSES MODULE 6. 
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+===========================================================================
+
+In the CSES MODULE 6 dataset, all variables begin with the letter "F" 
+(F being the sixth letter of the English alphabet and thus signifying 
+MODULE 6).
+
+The CSES Codebook is especially extensive and users are advised that the 
+best way to navigate it is electronically. It is a .txt format which 
+allows it to be accessed via a variety of programs. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header. 
+
+>>> = Sub-section Header 1.
+
+<<>> = Sub-section Header 2. 
+
++++ = Tables.
+
+CSES QUESTION CLASSIFICATION = For survey level variables only, CSES  
+Question Classification details whether the variable is part of the CSES  
+Core component, which are questions asked repeatedly in CSES Modules, 
+whether a variable is part of the CSES Module Theme component, which are  
+questions specific to the Module Theme under exploration and might not be 
+included in CSES repeatedly, or whether a variable is a Derivative Variable, 
+which is explained below. 
+
+VARIABLE NOTES = Notes for particular variables.
+
+ELECTION STUDY NOTES = Notes for a particular election study.
+
+DERIVATIVE VARIABLE = Highlights a variable derived from another 
+variable or variables within the CSES.
+
+POTENTIAL POLITY LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at polity level.
+
+POTENTIAL REGIONAL LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at regional level.
+
+POTENTIAL TIME BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging by time.
+
+POTENTIAL PARTY/COALITION LEVEL BRIDGING IDENTIFIER = Highlights a variable 
+that may be used for data bridging at party/coalition level.
+
+POTENTIAL CSES PRODUCT BRIDGING IDENTIFIER = Highlights a variable 
+that may be used for data bridging with other CSES products.
+
+
+===========================================================================
+))) LIST OF TABLES IN CODEBOOK PART 1
+===========================================================================
+
+Below, we list the Tables located in Codebook Part 1. Tables can be 
+accessed in the electronic version of the CSES Codebook by searching for
+"+++". 
+
+   - OVERVIEW OF ELECTION STUDIES INCLUDED IN CSES MODULE 6 WITH NUMBER OF 
+     OBSERVATIONS, MODE OF DATA COLLECTION, AND FIELDWORK DATES
+
+
+===========================================================================
+))) THE COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) PROJECT OVERVIEW
+===========================================================================
+
+---------------------------------------------------------------------------
+>>> CSES PROJECT PROFILE
+---------------------------------------------------------------------------
+
+The Comparative Study of Electoral Systems (CSES) is a collaborative
+program of research among election study teams from around the world.
+Participating polities include a common module of survey questions
+in their post-election studies. The resulting data are deposited along
+with voting, demographic, district, and macro variables. The studies are
+then merged into a single, free, public dataset for use in comparative
+study and cross-level analysis.
+
+The CSES project focuses on respondents' behavior and attitudes during 
+the time of a national election, with a particular emphasis on voting and 
+turnout. Each CSES Module consists of a nationally-representative 
+post-election survey and additional variables about the context of the 
+overall polity and electoral system within which the respondents find 
+themselves. Every five years a new CSES Module is designed with a 
+different substantive theme selected to address essential questions 
+in electoral studies and social science. 
+
+An international committee of leading scholars of electoral politics and 
+political science develop the research agenda, questionnaires, and study 
+design. The design is implemented in each polity by their foremost 
+social scientists. By collaborating in this way, the CSES community hopes 
+to advance scientific inquiry into the relationship between electoral
+institutions and political behavior.
+
+The work of the CSES Secretariat is funded by the American National 
+Science Foundation, the GESIS - Leibniz Institute for the Social 
+Sciences, and the University of Michigan's Center for Political Studies. 
+Details of particular grants that provided funding for MODULE 6 are 
+available under the "HOW TO CITE THE CSES MODULE 6 STUDY". 
+The project also receives in-kind support from participating election 
+studies, additional organizations that sponsor Planning Committee (PC) 
+meetings and conferences, and the many organizations that fund national 
+election studies that participate in CSES. 
+
+This is the sixth iteration of CSES known as CSES MODULE 6. The remainder
+of the project description relates specifically to CSES MODULE 6. 
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 6 STUDY DESCRIPTION - ABSTRACT
+---------------------------------------------------------------------------
+
+CSES MODULE 6 is scheduled to officially be in data collection from 2021 to 
+2026.
+
+CSES MODULE 6 focuses on the theme "Representative Democracy Under Pressure" 
+with questions tapping citizens' views on the functioning of the democratic 
+system and perceptions of system outputs, gender representation, 
+preferences for government and the impact of the COVID-19 pandemic.
+
+More information regarding the theme of MODULE 6 can be found in the
+CSES MODULE 6 Stimulus Paper available on the CSES website in the "About"
+section ("Planning Committee"). 
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 6 PLANNING COMMITTEE
+---------------------------------------------------------------------------
+
+The CSES MODULE 6 Planning Committee (PC) was responsible for the design of
+CSES MODULE 6 and took initial responsibility for its implementation.
+Besides the Chair, Planning Committee Members are listed alphabetically by 
+surname. The following persons were members of the CSES MODULE 6 Planning 
+Committee:
+
+ELIZABETH ZECHMEISTER (MODULE 6 Planning Committee Chair)
+Vanderbilt University, United States
+
+EVA ANDUIZA
+Universitat Autonoma de Barcelona, Spain
+
+ALI CARKOGLU
+Koc University, Turkey
+
+MARINA COSTA LOBO
+University of Lisbon, Portugal
+
+DAVID HOWELL, ex officio
+University of Michigan, United States
+
+ORIT KEDAR
+The Hebrew University of Jerusalem, Israel
+
+GEORG LUTZ
+University of Lausanne, Switzerland
+
+IRFAN NOORUDDIN
+Georgetown University, United States
+
+HENRIK OSCARSSON
+University of Gothenburg, Sweden
+
+STEPHEN QUINLAN, ex officio
+GESIS - Leibniz Institute for the Social Sciences, Germany
+
+RUDIGER SCHMITT-BECK
+University of Mannheim, Germany
+
+CARLOS SHENGA
+Higher Institute of Public Administration, Mozambique
+
+JILL SHEPPARD
+Australian National University, Australia
+
+ALBERTO SIMPSER
+ITAM (Instituto Tecnologico Autonomo de Mexico), Mexico
+
+LAURA STEPHENSON
+Western University, Canada
+
+DAVID SULMONT
+Pontifical Catholic University of Peru, Peru
+
+JOSHUA TUCKER
+New York University, United States
+
+WOUTER VAN DER BRUG
+University of Amsterdam, The Netherlands
+
+MARKUS WAGNER
+University of Vienna, Austria
+
+MASAHIRO YAMADA
+Kwansei Gakuin University, Japan
+
+ERIC YU
+National Chengchi University, Taiwan R.O.C.
+
+
+Past members of the CSES MODULE 6 Planning Committee include:
+
+CATHERINE E. DE VRIES
+Free University Amsterdam, Netherlands
+
+AIDA JUST
+Bilkent University, Turkey
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 7 PLANNING COMMITTEE
+---------------------------------------------------------------------------
+
+The CSES MODULE 7 Planning Committee (PC) takes responsibility not only for 
+the design and implementation of MODULE 7 but also the responsibility for
+the remainder of CSES MODULE 6 until its completion. 
+The following persons are members of the CSES MODULE 7 Planning Committee: 
+
+SELIM ERDEM AYTAC
+Koc University, Turkey
+
+RUTH DASSONNEVILLE
+Universite de Montreal, Canada
+
+THORSTEN FAAS
+Free University Berlin, Germany
+
+LIRAN HARSGOR
+University of Haifa, Israel
+
+AIRO HIRO
+Waseda University, Japan
+
+DAVID HOWELL, ex officio
+University of Michigan, United States
+
+LUKAS LINEK
+Czech Academy of Sciences, Czechia
+
+NOAM LUPU
+Vanderbilt University, United States
+
+AMENI MEHREZ
+Central European University, Hungary
+
+IRFAN NOORUDDIN
+Georgetown University, United States
+
+EVA H. ONNUDOTTIR
+University of Iceland, Iceland
+
+ROSARIO QUEIROLO
+Universidad Catolica del Uruguay, Uruguay
+
+STEPHEN QUINLAN, ex officio
+GESIS - Leibniz Institute for the Social Sciences, Germany
+
+COLLETTE SCHULZ-HERZENBERG
+Stellenbosch University, South Africa
+
+LAURA STEPHENSON
+Western University, Canada
+
+DAVID SULMONT
+Pontifical Catholic University of Peru, Peru
+
+JOSHUA TUCKER
+New York University, United States
+
+ASA VON SCHOULTZ
+University of Helsinki, Finland
+
+ERIC YU
+National Chengchi University, Taiwan R.O.C.
+
+
+Past members of the CSES MODULE 7 Planning Committee include:
+
+MARINA COSTA LOBO
+University of Lisbon, Portugal
+
+JILL SHEPPARD
+Australian National University, Australia
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 6 COLLABORATORS
+---------------------------------------------------------------------------
+
+The CSES project is extremely grateful to our MODULE 6 Collaborators, who
+raised their own funds to include CSES MODULE 6 in a nationally
+representative post-election study in their polity or province.
+
+Listed Collaborators are those who appear in the Design Report for the
+respective study - they are not necessarily the actors who collected
+the data, and they are not necessarily the only investigators on each
+study. Most election studies benefited from the scientific input and data
+preparation skills of additional persons not listed here.
+
+Within each election study, Collaborators are presented in the order in
+which they are listed in the Design Report deposited by each Collaborator
+team. The affiliations listed are current as of the date when each
+election study's Design Report was deposited with CSES. The polities are
+listed in alphabetical order. 
+
+
+- AUSTRALIA (2022)   IAN MCALLISTER
+                     Australian National University, Australia 
+
+                     SARAH CAMERON
+                     Griffith University, Australia
+
+                     SIMON JACKMAN
+                     Sydney University, Australia
+
+                     JILL SHEPPARD
+                     Australian National University, Australia
+
+
+- BRAZIL (2022)      RACHEL MENEGUELLO
+                     State University of Campinas (UNICAMP), Brazil
+
+
+- DENMARK (2022)     KASPER M. HANSEN
+                     Department of Political Science, 
+                     University of Copenhagen, Denmark
+
+                     RUNE STUBAGER
+                     Department of Political Science, 
+                     Aarhus University, Denmark
+
+
+- FRANCE (2022)      NICOLAS SAUGER
+                     Centre de donnees socio-politiques
+                     Sciences Po, Paris, France
+
+
+- MONTENEGRO (2023)  OLIVERA KOMAR
+                     De Facto Consultancy & Faculty of Political Science, 
+                     University of Montenegro, Montenegro
+
+                     SLAVEN ZIVKOVIC 
+                     De Facto Consultancy, Montenegro
+
+                     NEMANJA BATRICEVIC
+                     Faculty of Political Science, University of Montenegro,
+                     Montenegro  
+
+                     NEMANJA STANKOV
+                     Faculty of Political Science, University of Montenegro,
+                     Montenegro
+
+
+- PORTUGAL (2022)    MARINA COSTA LOBO
+                     Institute of Social Sciences, University of Lisbon,
+                     Portugal
+
+                     PEDRO MAGALHAES 
+                     Institute of Social Sciences, University of Lisbon,
+                     Portugal
+
+
+- TURKIYE (2023)     SELIM ERDEM AYTAC
+                     Koc University, Istanbul, Turkiye
+
+                     ALI CARKOGLU
+                     Koc University, Istanbul, Turkiye
+                     
+                     ERSIN KALAYCIOGLU
+                     Sabanci University, Istanbul, Turkiye
+
+                     MERT MORAL
+                     Sabanci University, Istanbul, Turkiye                    
+
+                     SUSAN BANDUCCI
+                     University of Exeter, United Kingdom
+
+
+---------------------------------------------------------------------------
+>>> CSES SECRETARIAT
+---------------------------------------------------------------------------
+
+The CSES Secretariat comprises the central staffing and operational hub for 
+the CSES project, under the leadership of the Chair of the CSES Planning 
+Committee, PC - listed above). Since June 2011, the Secretariat has been
+a collaboration between the GESIS - Leibniz Institute for the Social
+Sciences, Germany, and the University of Michigan's Center for Political
+Studies in the United States. 
+Professor Elizabeth Zechmeister of the Vanderbilt University, and Chair of
+the CSES MODULE 6 Planning Committee, and Professor Marina Costa Lobo of 
+the University of Lisbon, Chair of the CSES MODULE 7 Planning Committee, 
+have overseen the operations of CSES MODULE 6 during their respective 
+terms as Chair.
+
+Various persons have staffed the CSES Secretariat throughout the MODULE 6
+period. David Howell served as the Director of Studies and Stephen Quinlan
+served as the Project Manager. Katharina Blinzler, Klara Dentler, Bojan 
+Todosijevic, and Slaven Zivkovic were responsible for research support, 
+documentation, preparation, communications, and other services. 
+Additional support to the Secretariat was provided by several research 
+assistants from the GESIS - Leibniz Institute for the Social Sciences.  
+
+Support was received from various sources for the activities of the CSES
+Secretariat during the period of CSES MODULE 6:
+
+1. American National Science Foundation (NSF) grant SES-1760058, 
+   "The Sixth Module of the Comparative Study of Electoral Systems (CSES)"
+   with Principal Investigators Ken Kollman (University of Michigan), John 
+   Aldrich (Duke University), and Elizabeth Zechmeister (Vanderbilt
+   University) supported CSES Secretariat activities at the University of 
+   Michigan beginning in 2018.
+
+2. American National Science Foundation (NSF) grant SES-2214278, 
+   "The Seventh Module of the Comparative Study of Electoral Systems (CSES)"
+   with Principal Investigators Ken Kollman (University of Michigan) and 
+   Elizabeth Zechmeister (Vanderbilt University) supported CSES Secretariat
+   activities at the University of Michigan beginning in 2023.
+
+3. The CSES Secretariat activities at the GESIS - Leibniz Institute for the
+   Social Sciences, Germany are funded by the GESIS - Leibniz Institute.
+
+4. The Center for Political Studies (CPS) at the University of Michigan 
+   provides additional financial support.
+
+
+===========================================================================
+))) CSES MODULE 6 - HOW TO ACCESS?
+===========================================================================
+
+---------------------------------------------------------------------------
+>>> THE CSES CODEBOOK
+---------------------------------------------------------------------------
+
+Users are advised to first download the CSES Codebook file:
+
+  cses6_codebook.zip  Contains the five Codebook files, including this 
+                      one, in text format.
+                   
+The Codebook can also be navigated online the CSES MODULE 6 study page at: 
+        https://cses.org/data-download/cses-module-6-2021-2026/       
+
+---------------------------------------------------------------------------
+>>> THE CSES DATA FILES
+---------------------------------------------------------------------------
+
+The following ZIP files, which contain the CSES data are available to 
+download from the CSES MODULE 6 study page at: 
+        https://cses.org/data-download/cses-module-6-2021-2026/ 
+
+Users can download the data in a variety of formats depending on which 
+statistical packages they intend to use with the data:
+
+  cses6_csv.zip       Contains a .CSV file with variables names as column 
+                      headers but no additional metadata (for instance,
+                      no code labels are included).
+                                      
+  cses6_syntax.zip    Contains a raw data file and syntax statements to
+                      read the dataset into SAS, SPSS, and STATA. The
+                      instructions for doing so are found in the 
+                      headers of the syntax files for each statistical
+                      package: cses6.sas for SAS, cses6.sps for SPSS,
+                      and cses6.do for STATA. Users of STATA 13 or earlier
+                      versions are advised to use these files to load 
+                      the dataset into their package. 
+                      
+  cses6_r.zip         Contains a R Workplace system file (.rdata), with
+                      the dataset already prepared and ready to be loaded
+                      into R. Missing data statements are not applied.
+  
+  cses6_sas.zip       Contains a SAS 7-8 system file (.sas7bdat), with
+                      the dataset already prepared and ready to be loaded
+                      into SAS. Missing data statements are not applied.
+  
+  cses6_spss.zip      Contains a SPSS system file (.sav), with the dataset
+                      already prepared and ready to be loaded into SPSS.
+                      Missing data statements are not applied.
+  
+  cses6_stata.zip     Contains a STATA 18 system file (.dta), with the
+                      dataset already prepared and ready to be loaded
+                      into STATA. Missing data statements are not applied.
+                      Users of STATA 13 or earlier versions of this
+                      program are advised to use the "cses_syntax.zip"
+                      files to load the dataset into their package. 
+
+Please note that all above packages will need a File Extractor 
+program downloaded to their computer to be able to Unzip and open the
+above files. 
+
+We recommend that PC users create the following directory on their hard
+drive, and to download their files from this MODULE 6 release to that 
+location:
+                 "c:/cses/module6/20241217/"                        
+
+The sub-directory value "20241217" represents the version (release date) of 
+the dataset - this being 2024, and the December 17 version of CSES MODULE 6.
+This file structure is compatible with how the "cses6_syntax.zip" file
+(detailed above) is organized. The method allows users with multiple CSES
+datasets and/or versions to stay organized and not over-write their other 
+files. Users of other computer types (Macs, Unix, etc.) are recommended to 
+use a similar directory structure to organize their CSES files.
+
+
+===========================================================================
+))) CSES MODULE 6 STUDY
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF CSES MODULE 6 DATA FILE PARTICULARS
+---------------------------------------------------------------------------
+
+The particulars of the First Advance Release of CSES MODULE 6 are: 
+
+Type of study:                CROSS-SECTIONAL
+Kind of data:                 SURVEY DATA FUSED WITH CONTEXTUAL MACRO DATA
+Primary Unit of Analysis:     INDIVIDUALS 
+Universe:                     ALL PERSONS OF ELIGIBLE VOTING AGE AND 
+                              ELIGIBLE TO VOTE IN THE NATIONAL ELECTION
+Geographic Coverage:          GLOBAL (Europe, parts of Asia and South 
+                              America, Australia)
+Total Geographic Regions:     6 (as defined by the UN Geographic regions)
+File Structure:               RECTANGULAR 
+Total Case Count:             12,112
+Total Variable Count:         658      
+Total Polities:               7               
+Total Election Studies:       7          
+
+
+Users are advised that the above information relates to this Advance 
+Release. The product is still in development, and data will be added 
+gradually. Many election studies and variables that will eventually be 
+present in the CSES Module 6 Full Release are unavailable in this version 
+of the file. 
+
+
+---------------------------------------------------------------------------
+>>> LIST OF ELECTION STUDIES INCLUDED IN CSES MODULE 6
+---------------------------------------------------------------------------
+
+The First Advance Release of CSES MODULE 6 contains data from the following 
+7 election studies in 7 polities. They are listed below in alphabetic
+order with an overview of some particulars of each election study. 
+
+    | +++ TABLE: OVERVIEW OF ELECTION STUDIES INCLUDED IN CSES MODULE 6 WITH
+    |            NUMBER OF OBSERVATIONS, MODE OF DATA COLLECTION, AND
+    |            FIELDWORK DATES
+    |
+    | POLITY (ELEC YEAR)     N of      Mode of      Dates of Fieldwork
+    |                    Observations Interview      (Start-End date)     
+    | ---------------------------------------------------------------------
+    | AUSTRALIA (2022)      3,269        MX       May 23, 2022-Jun 05, 2022
+    | BRAZIL (2022)         2,001       F2F       Nov 19, 2022-Dec 04, 2022
+    | DENMARK (2022)        1,549        MX       Nov 02, 2022-Feb 01, 2023
+    | FRANCE (2022)         1,575       INT       Apr 28, 2022-May 26, 2022
+    | MONTENEGRO (2023)     1,200       F2F       Oct 14, 2023-Oct 30, 2023
+    | PORTUGAL (2022)       1,010       F2F       Feb 11, 2022-Mar 07, 2022
+    | TURKIYE (2023)        1,508       F2F       Aug 25, 2023-Oct 04, 2023
+    | --------------------------------------------------------------------
+    | TOTAL                12,112  
+    | 
+    | Key:  F2F=Face-to-face.
+    |       TP=Telephone.  
+    |       INT=Internet/Online.
+    |        MX=Mixed. 
+    |
+    | Users are advised to consult the VARIABLE NOTES for Variables F1019_
+    | in Codebook Part 2 concerning fieldwork date classifications.
+
+Users are advised that the above information relates to this Advance 
+Release. The product is still in development, and data will be added 
+gradually. Many election studies and variables that will eventually be 
+present in the CSES Module 6 Full Release are unavailable in this version 
+of the file. 
+
+
+---------------------------------------------------------------------------
+>>> MICRO-LEVEL (SURVEY) COMPONENT
+---------------------------------------------------------------------------
+
+The core questionnaire ("Module") of CSES MODULE 6 was intended to be
+administered as a single, uninterrupted block of questions in a nationally
+representative post-election survey in each polity.
+
+A) The question text is included in the variable documentation of this
+   Codebook. The questions are reported in the order in which they appear
+   in the CSES questionnaire. For some questions, Collaborator instructions
+   for administering the CSES Questionnaire were important. These are 
+   reported in the next section.
+
+B) Where there are known differences in the way a particular question was
+   administered in an election study, this is noted in the "Election Study
+   Notes" following the documentation of the corresponding variable.
+
+C) There are several sets of party and leader evaluation items included
+   in the module. These correspond to parties labeled A-F, in descending
+   order of vote share, of the six most popular parties in the main 
+   election (unless stated otherwise). Where respondents were asked to 
+   evaluate other parties, these evaluations have been included where 
+   possible and are labeled parties G-I, regardless of their vote shares. 
+   The parties and leaders to which these evaluations apply are identified
+   in Codebook Part 3.
+
+D) There are several questions (including the vote choice and party
+   identification items) that ask the respondents to specify a political
+   party. The codes for these items are also reported in Codebook Part 3.
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 6 COLLABORATOR INSTRUCTIONS FOR THE ADMINISTRATION OF THE
+    CSES QUESTIONNAIRE
+---------------------------------------------------------------------------
+
+The following instructions appeared in the header to the questionnaire for
+CSES MODULE 6, as instructions to Collaborators regarding the implementation
+of the questionnaire:
+
+  ( 1)  Following these collaborator instructions, this document is 
+        comprised of three sections:
+
+        ))) CSES MODULE 6 QUESTIONNAIRE: ADMINISTRATIVE VARIABLES
+
+        The "Administrative Variables" section is a list of common
+        administrative variables that, if possible, should be provided at
+        the time data are deposited with the CSES Secretariat.
+
+        ))) CSES MODULE 6 QUESTIONNAIRE: CSES MODULE
+
+        This is the CSES Module itself, a common module of survey questions
+        for researchers to include in their national post-election survey.
+        The CSES Module is intended to be administered exactly as it is
+        specified in this document.
+
+        ))) CSES MODULE 6 QUESTIONNAIRE: DEMOGRAPHIC VARIABLES
+
+        Collaborators are asked to provide data on background (demographic)
+        characteristics of respondents, coded to an agreed upon set of
+        standards as indicated in this section. There is great
+        international variation in the ways that collaborators will go
+        about soliciting information on the background characteristics of
+        their respondents. The objective here is not standardization of the
+        way collaborators ask these background questions, but instead,
+        standardization to a common, cross-national scheme for coding each
+        variable.
+
+  ( 2)  The CSES Module (consisting of the questions which are named 
+        beginning with the letter "Q") is intended to be administered in
+        its entirety as a single, uninterrupted block of questions, unless 
+        noted otherwise for particular questions. In most cases, the CSES 
+        Module is included as part of a larger study. For reliable 
+        comparisons to be made, it is important that any additional items
+        investigators may wish to include do not interrupt the CSES Module.
+
+  ( 3)  The CSES module should be administered as a post-election
+        interview.
+
+  ( 4)  Where the CSES module is included in a larger study, to ensure that
+        question-ordering effects are minimized, collaborators should be
+        sensitive to the effects questions asked immediately prior to the
+        module may have.
+
+  ( 5)  NOTES often precede the question TEXT, and provide instructions for
+        the administration of the item. Where no question TEXT is provided,
+        collaborators should provide documentation of the question used.
+
+  ( 6)  Showcards may be helpful for the administration of some questions.
+        For this reason, a Respondent Booklet is available for download
+        from the CSES website. The Respondent Booklet contains showcards
+        for select questions. It is indicated in the NOTES when a showcard
+        is available for a question.
+        
+  ( 7)  The response options that should be read to the respondent are
+        contained in the body of the question TEXT.
+
+  ( 8)  Where lower-case words appear in brackets [ ] collaborators should
+        select the words that are most appropriate.
+
+        For example:
+        [party/presidential candidate]
+        ...indicates that either the word "party" or the phrase
+        "presidential candidate" should be read, but not both.
+
+  ( 9)  Where upper-case words appear in brackets [ ] collaborators should
+        substitute the words that are most appropriate.
+
+        For example:
+        [COUNTRY]
+        ...should be replaced with the name of the country where the
+        election was held (perhaps "Canada" or "the Philippines").
+
+        Another example:
+        [NUMBER OF YEARS BETWEEN THE PREVIOUS AND THE PRESENT ELECTION
+        OR CHANGE IN GOVERNMENT]
+        ...should be replaced with a number that indicates the amount of
+        years that have passed between the previous election and either the
+        current election or recent change in government.
+
+  (10)  Phrases that appear in parentheses ( ) contain words that are
+        optional - that collaborators (or their interviewers) can decide to
+        read or not read to respondents as needed.
+
+  (11)  Words in question text that are in upper-case but NOT within 
+        brackets [ ] should be emphasized by the interviewer when reading
+        the question text. 
+        
+        For example, the word "COUNTRY" would be emphasized in the
+        following question when the interviewer reads the question to the
+        respondent:
+        
+        What COUNTRY do you live in?
+        
+        But in this next example, the interviewer does not emphasize the
+        word "[COUNTRY]". Instead, this is an instruction for the
+        collaborator to substitute the name of the respondent's country
+        into the question text (for more information, see the eighth
+        Collaborator Instruction above):
+        
+        How long have you lived in [COUNTRY]?
+                        
+  (12)  Interviewer instructions are available for some questions. These
+        interviewer instructions, labeled as HELP, are intended to
+        provide advice to the interviewers to assist in administering the
+        question. It is also useful to discuss the interviewer instructions
+        as part of interviewer training. The interviewer instructions, 
+        where available, appear after the question TEXT. In 
+        interviewer-administered surveys, interviewer instructions should
+        be available to the interviewer, but not to the respondent. For
+        example, in a computer-assisted interview, the interviewer
+        instructions might appear on the screen in a special color, and
+        interviewers trained to make use of those instructions as
+        necessary, but the interviewer should NOT read the interviewer
+        instructions to the respondent.
+        
+  (13)  Some response options are followed by an arrow (->) and a skip
+        pattern instruction. If the respondent selects that response 
+        option, the skip pattern instruction after the arrow is to be
+        executed.
+
+  (14)  Respondents who volunteer the response "DON'T KNOW" (or who have
+        REFUSED to answer a question) should be coded as such. Interviewers
+        should accept these responses and should NOT probe for additional
+        information or force a respondent to use one of the response
+        options provided in the text of the question.
+
+  (15)  Special care should be taken in the administration of the Vote 
+        Choice items (Q10 and Q14 question series).
+        
+        Wording for the Q10 and Q14 question series, which is to record
+        vote choice in the elections, should follow national standards. 
+       
+        Collaborators are invited to compare their own national instrument
+        with other instruments of countries that are part of the CSES and
+        look for convergence where this is possible.
+        
+        For Q14 (previous election), ask about the previous national 
+        election of the same type (whether legislative or presidential).
+        For countries where more than one institution is being currently
+        elected on the same day (e.g., president and legislature), please 
+        consider asking about the previous lower house election if votes
+        have been recorded for the current lower house election. 
+        
+        For Q10 (current election), for countries where more than one 
+        institution is elected on the same day (e.g., president and 
+        legislature) using different votes, please ensure that all votes
+        are supplied. Consider including all national elections having been
+        held within three months before the study's data collection period.
+        
+        Please ensure all vote choices are supplied as separate variables
+        in the dataset that you deposit.
+        
+        For countries where voters have two votes for the same institution
+        (e.g. parallel and mixed member proportional systems; double
+        ballot systems), please ensure that both/all votes are supplied.
+        
+        For countries using preferential systems (e.g., STV, AV) please
+        provide first and second preference vote.
+          
+  (16)  For questions asking about parties, collaborators should be advised
+        that they may add one or several party blocs to a list of
+        individual parties if they feel that it will be difficult for
+        respondents to recognize individual parties.   
+        
+
+---------------------------------------------------------------------------
+>>> DISTRICT-LEVEL COMPONENT
+---------------------------------------------------------------------------
+
+The district-level variables report relevant election result data (mostly
+pertaining to the lower house elections) for each respondent's district. 
+Wherever possible, these data were collected from official sources (see
+CSES MODULE 6 Codebook Part 2 and Bibliography in Part 1 for details). 
+In other cases, CSES has been grateful for the compilation of these data 
+provided by third-party sources.
+
+Parts 2 and 4 of the CSES MODULE 6 Codebook provide more information on 
+the district data, including details of any polities where we deviate from 
+the CSES conventions as well as the sources of the data for each polity. 
+
+
+---------------------------------------------------------------------------
+>>> MACRO-LEVEL COMPONENT
+---------------------------------------------------------------------------
+
+To supplement the micro (individual survey level) data, CSES augments this 
+data with macro and contextual data. CSES has been a pioneer in this field 
+having included a macro data component in its products since its inception 
+in 1996. There are two types of macro data included in CSES: 
+   -  System/polity macro data 
+   -  Aggregated macro data 
+
+System/polity level data refers to data about the polity or contextual 
+characteristics. These are often sourced from official documents like 
+constitutions, electoral laws, government information pages, or expert 
+judgments.  
+
+Aggregated macro data summarizes data about lower-level units into a 
+higher-level unit. Economic indicators such as gross domestic product (GDP) 
+or unemployment data for a country fall into this classification. 
+
+The CSES Planning Committee, the project governing board, specifies the 
+specific macro data to collect for each CSES Module after consultation with 
+the CSES Secretariat. The rationale for collecting specific macro variables 
+is usually specified in CSES Planning Committee reports on the particular
+module. 
+
+CSES macro data is principally collated from two sources, namely: 
+-   The CSES Macro Report 
+-   The CSES Secretariat 
+
+The CSES Macro Report is a detailed questionnaire completed by national 
+Collaborators who field the CSES study. This Report allows CSES to collect 
+certain macro information consistently from national-level experts. 
+Moreover, as polities participating in CSES are only sometimes available 
+from other comparative datasets, it ensures macro data is available for all 
+elections and polities. The CSES Secretariat reviews Macro Reports as 
+provided by Collaborators before publication. These reports can be accessed 
+on the CSES website in the "CSES Module 6 Election Study Archive" at the 
+bottom of the CSES Module 6 Download page.
+
+The CSES Secretariat is comprised of macro experts - individuals who have 
+substantial expertise (usually at the post-doctoral level) in the political 
+dynamics and electoral systems of many of the polities in CSES. They are 
+tasked with collating macro data from other sources, including comparative 
+databases such as the World Bank and Freedom House, and bringing their 
+expertise to classifying election results. They are also tasked with 
+harmonizing these data and providing additional user guidance where 
+necessary. Sources consulted for these macro level data are listed as 
+appropriate in the Bibliography section at the end of this part of the 
+CSES Codebook.
+ 
+
+===========================================================================
+))) CSES MODULE 6 DOCUMENTATION - WHAT'S AVAILABLE AND HOW TO USE?
+===========================================================================
+
+There are several components to the CSES documentation. We detail each form 
+below: 
+
+---------------------------------------------------------------------------
+>>> CSES CODEBOOK OVERVIEW
+---------------------------------------------------------------------------
+
+The primary documentation component is the CSES MODULE 6 Codebook. 
+The Codebook consists of five components, namely: 
+
+1) PART 1: INTRODUCTION 
+   (file name: cses6_codebook_part1_introduction.txt)
+   Part 1 (This file) overview of the CSES study and data, information  
+   about how to use the files, information on the CSES data file, the 
+   checks the CSES Secretariat conducts on the data file and information on
+   the national Collaborators of the CSES project for each polity.  
+
+2) PART 2: CSES VARIABLES DESCRIPTION
+   (file name: cses6_codebook_part2_variables.txt)
+   Part 2 is the Variable Description file and includes the survey 
+   questions, code frames, general variable notes, election study notes, 
+   and details about sources for macro data. 
+
+3) PART 3: PARTIES AND LEADERS BY POLITY 
+   (file name: cses6_codebook_part3_parties_and_leaders.txt)
+   Part 3 details the party/coalition and leader numerical and alphabetical
+   classifications for each polity included in the CSES MODULE 6 dataset. 
+
+4) PART 4: PRIMARY ELECTORAL DISTRICTS RESPONDENTS BY POLITY
+   (file name: cses6_codebook_part4_primary_electoral_districts.txt)
+   Part 4 details the primary electoral district by polity for each 
+   respondent included in the CSES MODULE 6 dataset. 
+
+5) PART 5: STUDY DESIGN AND WEIGHTS OVERVIEW BY POLITY
+   (file name: cses6_codebook_part5_designs_and_weights.txt)
+   Part 5 contains overviews of the design of each election study included 
+   in CSES MODULE 6. It also provides analysts with details regarding the 
+   polity weights provided by each election study. 
+
+The CSES MODULE 6 questionnaire is also available from the website or
+by referencing the corresponding variables in this Codebook.
+
+For all election studies included in CSES, Collaborators have provided 
+documentation to accompany their election studies. These documents, 
+where available, can be found on the CSES MODULE 6 download page.
+
+Analysts will also want to become familiar with the CSES MODULE 6 errata
+page. It is accessible from the CSES MODULE 6 download page on the CSES 
+website in the white box to the right of the page. Information, updates, 
+and error notifications and corrections are posted there, in real time, 
+as they become available. Please regularly check for errata notifications 
+to keep up to date.
+
+
+---------------------------------------------------------------------------
+>>> CSES CODEBOOK CONVENTIONS
+---------------------------------------------------------------------------
+
+The CSES project uses American English language and date standards 
+(MM-DD-YYYY). In the CSES MODULE 6 dataset, all variables begin with the 
+letter "F" (F being the sixth letter of the English alphabet and thus 
+signifying MODULE 6). This convention helps reduce the possibility of 
+overwriting data when merging with other CSES datasets.
+
+Variables are presented in six groupings:
+
+1) F1001-F1999 Identification, weight, and election study variables
+
+2) F2001-F2999 Demographic data
+
+3) F3001-F3999 Micro-level (survey) data (the CSES MODULE 6 questionnaire)
+
+4) F4001-F4999 District-level data
+
+5) F5000-F5999 Macro-level data
+
+6) F6000-F6999 IMD bridging Variables
+
+In the Variable Descriptions portion of the CSES MODULE 6 Codebook (Part 2),
+the headers for individual variables are surrounded by two lines of dashes. 
+Variable names do not exceed eight characters in length.
+
+
+---------------------------------------------------------------------------
+>>> CSES CODEBOOK - VARIABLE NOTES AND ELECTION STUDY NOTES
+---------------------------------------------------------------------------
+
+<<>> VARIABLE NOTES
+
+Variable Notes provide information on the rationale of a variable 
+as well as source information for that variable. It also details the 
+polities for which no data for that particular variable are available. 
+VARIABLE NOTES are listed below the descriptive information for the said
+variable and can be navigated in the Codebook by searching for 
+"VARIABLE NOTES" in Part 2 of the CSES Codebook. 
+
+
+<<>> ELECTION STUDY NOTES
+
+A unique dimension of the CSES are the inclusion of ELECTION STUDY NOTES. 
+They are notes which are attached to each variable included in the dataset
+and refer to case specific information regarding a particular variable. 
+Their purpose is to provide users with more detailed information on the 
+case or explain important deviations specific to cases from CSES 
+conventions. They are also used to provide source data information for 
+users. Where applicable, ELECTION STUDY NOTES are listed below a particular
+variable and any VARIABLE NOTES in Parts 2 and 3 of the CSES Codebook. 
+They can be navigated in the Codebook by searching for "ELECTION STUDY 
+NOTES" in Parts 2 and 3 of the CSES MODULE 6 Codebook.
+
+
+---------------------------------------------------------------------------
+>>> CSES ORIGINAL QUESTIONNAIRE FOR MODULE 6
+---------------------------------------------------------------------------
+
+The CSES MODULE 6 original questionnaire is available from the CSES Module 
+6 study page at: 
+         https://cses.org/data-download/cses-module-6-2021-2026/   
+         
+or by referencing the corresponding Variable Descriptions in this Codebook 
+(see Part 2).
+
+
+---------------------------------------------------------------------------
+>>> CSES - ADDITIONAL DOCUMENTATION
+---------------------------------------------------------------------------
+
+All election studies included in CSES provide numerous source material. 
+These documents include the following: 
+      - Macro Reports. 
+      - Design Reports. 
+      - Original questionnaires including in the language of origin. 
+
+We describe each in turn below. 
+
+
+<<>> MACRO REPORT
+
+Collaborators submit a Macro Report to the CSES Secretariat when depositing
+their national data. Its purpose is to provide a coherent link between 
+national level specialists and data specific to the election and polity 
+in question. It provides information on the election, the composition of 
+cabinet before and after election, expert assessments of the parties, 
+information on electoral rules operating in the polity, as well as original
+sources for the polity level data. It aids the CSES Secretariat in 
+collating some of the macro level data for each polity included in the 
+study. Where available, Macro Reports can be found on the CSES MODULE 6 
+download page under "CSES MODULE 6 Election Study Archive" at:
+https://cses.org/data-download/cses-module-6-2021-2026/
+
+
+<<>> DESIGN REPORT
+
+Collaborators also submit a Design Report to the CSES Secretariat when 
+depositing their national data. It provides all information on the 
+implementation of each individual election study including details
+regarding fieldwork dates, mode of interview, sampling procedures, 
+sampling frame, response and refusal rates, information on translation
+procedures, and weights. Some of this data is included directly in the
+CSES data in variables F1001-F1106. Where available, Design Reports can 
+be found on the CSES MODULE 6 download page under "CSES MODULE 6 Election
+Study Archive" at: https://cses.org/data-download/cses-module-6-2021-2026/
+
+Further, Part 5 of the CSES MODULE 6 Codebook provides overviews of each 
+polity's study design and polity level weights. It draws heavily on
+information from each polity's Design Report.
+
+
+<<>> ORIGINAL QUESTIONNAIRES
+
+Where available, CSES provides the original language questionnaires from 
+each polity's national election study. Further, CSES requests that all 
+studies included provide the English language questionnaire used as the 
+basis for translation of the CSES questionnaire into a polity's native
+tongue(s). Where available, the questionnaires can be found on the CSES 
+MODULE 6 download page under "CSES MODULE 6 Election Study Archive" at:
+https://cses.org/data-download/cses-module-6-2021-2026/
+
+
+===========================================================================
+))) CSES MODULE 6 STUDY DATA AND CODEBOOK: ADDITIONAL INFORMATION
+===========================================================================
+
+---------------------------------------------------------------------------
+>>> CODING OF PARTIES/COALITIONS & LEADERS
+---------------------------------------------------------------------------
+
+CSES classifies parties/coalitions in its dataset numerically and
+alphabetically. Below we provide explanations of both of these coding
+schemes. The details of each party/leader classification are available in  
+Part 3 of the CSES MODULE 6 Codebook. 
+
+<<>> CSES NUMERICAL PARTY/COALITION CODING
+
+Each party/coalition is assigned a unique numerical code which consists of  
+two components and six digits in total:
+    - the first three digits indicate the numerical country UN code
+    - the latter three digits indicate the numerical party code within
+      the given election study.
+
+All parties/coalitions or Presidential candidates, where applicable,
+participating in the election or the previous election receive a numerical
+code. These codes are used to identify the following: 
+    - who a respondent voted for in the current election (variables F3011_).
+    - who the respondent voted for in the previous election 
+      (variables F3016_).
+    - the respondent's party identification (variable F3023_3).
+      
+The numerical coding is also used to identify macro level information about
+the parties/coalitions, namely:
+    - numeric party code identifiers for relational data (variables F5000_)
+    - numeric party code identifiers for leaders' party affiliations
+      (variables F5000_L_)   
+    - which party/coalition held the Presidency before and after the
+      elections (variable F5019_1 and F5019_2).
+    - which party/coalition held the Prime Ministership before and after
+      the elections (variable F5020_1 and F5020_2).
+    - which party/coalition held the ministry of finance before and after
+      the elections (variable F5023_1 and F5023_2).
+    - which party/coalition held the foreign ministry before and after
+      the elections (variable F5023_3 and F5023_4).
+    - which party/coalition held the health ministry before and after
+      the elections (variable F5023_5 and F5023_6).
+     
+Numerical codes assigned to parties/coalitions are consistent for the 
+current and previous election.  
+
+<<>> CSES ALPHABETICAL PARTY/COALITION CODING
+ 
+Parties/coalitions A through F are the six most popular parties/coalitions, 
+ordered in descending order of their share of the popular vote in the 
+main election (unless otherwise stated). Thus, Party A is the 
+party/coalition that received the most votes in the election, party B the 
+second most votes, etc...
+
+Parties/coalitions who achieve at least 1% of the vote nationally are
+eligible for an alphabetical A-F assignment. In countries with multiple
+electoral tiers and where one vote is cast, parties are ordered according
+to their vote share in tier 1 (the lowest tier), unless otherwise stated.
+In countries where voters have two votes (i.e.: a constituency and a list
+vote) simultaneously, for example Germany, parties are ordered by the
+national share of the party list vote (tier 2) unless stated otherwise.
+
+Parties G, H, and I are supplemental parties. They may, but do not have to,
+accord with how parties A-F are ordered, that is ordered on the popular 
+share of the vote in a polity. More often, they are codified in no 
+particular order. These parties are voluntarily provided by each polity's
+election study and often reflect important or notable parties within a 
+polity. They may also include data about individual parties within a 
+coalition, where data about the coalition and the individual parties, 
+or some of these parties that make it up, are provided.
+These codes are used to identify the following in the micro component of 
+the CSES dataset: 
+    - Respondent's likeability of the party/coalition (variable F3018).
+    - Respondent's left-right placement of the party/coalition (variable 
+      F3020).
+    - Respondent's placement of the party/coalition on an alternative 
+      scale, if applicable (variable F3021).
+
+These alphabetical codes are used to identify district and macro level
+information about these said parties/coalitions, namely:
+    - The said party/coalition's vote share in the respondent's electoral
+      district (variable F4004).
+    - the said party/coalition's share of the seats in the election in the
+      respondent's electoral district (variable F4005).
+    - the said party/coalition's share of the vote in the election 
+      (variables F5001, F5003, F5005, and F5006).
+    - the said party/coalition's share of the seats in the election 
+      (variables F5002 and F5004).
+    - the said party/coalition's share of cabinet portfolios before and 
+      after the election (variables F5021 and F5022).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's ideological family (variable F5028).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's left-right placement (variable F5029).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's placement on an alternative scale, if applicable 
+      (variable F5030).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's level of populism (variable F5031).
+    - The said party/coalition's Manifesto Research on Political 
+      Representation (MARPOR/CMP) Identifier (variable F5200).
+    - The said party/coalition's Party Facts Identifier (variable F5203). 
+
+
+<<>> CSES ALPHABETICAL LEADER CODING
+         
+Leaders A through F tend to be the leaders of the six most popular parties/
+coalitions or the Presidential candidates of these parties. In most 
+instances, they correspond to parties/coalitions A-F (i.e.: Leader A will 
+be related to Party A in some way, Leader B will be related to 
+Party B, etc.).
+
+Leaders G, H, and I are supplemental leaders. They may be related to
+parties G, H, I but they do not have to be. These leaders are voluntarily
+provided by each polity's election study and often include data about
+additional personalities of interest. For example, in a parliamentary
+system, data about a President might be provided, even if the Presidency
+is not being contested. On many occasions, slots Leader G, H, and I will
+include additional data for parties/coalitions that have multiple leaders.
+These codes are used to identify the following in the micro and macro
+components of the CSES dataset: 
+    - Respondent's likeability of the leader/personality in question
+      (variable F3019).
+    - the said leader/personality's biological sex (F5000_L_ABS-IBS).
+
+
+---------------------------------------------------------------------------
+>>> CSES DATA BRIDGING: NEW FRONTIERS IN DATA LINKAGE
+---------------------------------------------------------------------------
+
+Data Bridging enables users to bring together information from CSES with 
+other data sources. The concept is part of CSES Data Linkage efforts. CSES
+has been a pioneer of Data Linkage with the inclusion of various 
+macro-level data originating from other sources (e.g., The World Bank, 
+the IDEA) directly in CSES data products, including in CSES MODULE 6. These 
+macro data classify the political system's characteristics and contextual 
+conditions of a polity at the election time.  
+Data Bridging gives users the power to build on the direct data linkage 
+in CSES products by enabling users to easily link other data with CSES 
+products. CSES MODULE 6 enables users to bridge data with other prominent 
+datasets in political science by including standard identifiers at the
+polity, year, and party level used by other projects to facilitate 
+merging.
+
+CSES MODULE 6 facilitates data bridging with other datasets at the polity 
+level with the following variables:
+    - F1006_UN       ID COMPONENT - POLITY UN ISO_3166-1 NUMERIC CODE
+    - F1006_UNALPHA2 ID COMPONENT - POLITY UN ISO_3166-1 ALPHABETIC
+                                    TWO LETTER CODE
+    - F1006_UNALPHA3 ID COMPONENT - POLITY UN ISO_3166-1 ALPHABETIC
+                                    THREE LETTER CODE
+    - F1006_NAM      ID COMPONENT - POLITY NAME
+    - F1007_VDEM     ID COMPONENT - V-Dem POLITY IDENTIFIER
+    
+More details can be found on all these variables in CSES Codebook Part 2
+by searching for the variable name (e.g., "F1006_UN") or using the search
+term "POTENTIAL POLITY LEVEL BRIDGING IDENTIFIER". 
+
+
+CSES MODULE 6 facilitates data bridging with other datasets at the regional 
+level through the following variables:  
+    - F1007_REG      ID COMPONENT - POLITY UN GEOGRAPHIC REGIONS NUMERIC
+                                    CODES
+More details can be found on all these variables in CSES Codebook Part 2
+by searching for the variable name (e.g., "F1007_REG") or using the search
+term "POTENTIAL REGIONAL LEVEL BRIDGING IDENTIFIER". 
+
+
+CSES MODULE 6 facilitates data bridging with other datasets by date through 
+the following variables:  
+    - F1009          ID COMPONENT - ELECTION YEAR
+    - F1010_M        DATE 1ST ROUND ELECTION BEGAN - MONTH
+    - F1010_D        DATE 1ST ROUND ELECTION BEGAN - DAY
+    - F1010_Y        DATE 1ST ROUND ELECTION BEGAN - YEAR
+    - F1010_1        DATE 1ST ROUND ELECTION BEGAN - YYYY-MM-DD
+    - F1010_2        DATE 1ST ROUND ELECTION BEGAN - YYYYMM
+    - F1011_M        DATE 2ND ROUND ELECTION BEGAN - MONTH
+    - F1011_D        DATE 2ND ROUND ELECTION BEGAN - DAY
+    - F1011_Y        DATE 2ND ROUND ELECTION BEGAN - YEAR
+    - F1011_1        DATE 2ND ROUND ELECTION BEGAN - YYYY-MM-DD
+    - F1011_2        DATE 2ND ROUND ELECTION BEGAN - YYYYMM                 
+
+More details can be found on all these variables in CSES Codebook Part 2
+by searching for the variable name (e.g., "F1009") or using the search
+term "POTENTIAL TIME BRIDGING IDENTIFIER". 
+
+
+CSES MODULE 6 facilitates data bridging with other datasets at the
+party/coalition level with the following variables: 
+    - F5200_A-I      MANIFESTO RESEARCH ON POLITICAL REPRESENTATION 
+                     (MARPOR/CMP) IDENTIFIER - PARTY A-I
+    - F5203_A-I      PARTY FACTS IDENTIFIER - PARTY A-I     
+   
+More details can be found on all these variables in CSES Codebook Part 2
+by searching for the variable name (e.g., "F5200_A") or using the search
+term "POTENTIAL PARTY/COALITION LEVEL BRIDGING IDENTIFIER."
+Users can also see the specific bridging codes for each party/coalition
+assigned an alphabetical code in CSES by other projects in Part 3 of the
+CSES MODULE 6 Codebook.
+
+
+CSES MODULE 6 facilitates data bridging with other CSES products at the
+party/coalition level with the following variables:  
+    - F6000_PR_1     IMD BRIDGING VARIABLE: CURRENT PRESIDENTIAL ELECTION:
+                     VOTE CHOICE - 1ST ROUND
+    - F6000_PR_2     IMD BRIDGING VARIABLE: CURRENT PRESIDENTIAL ELECTION:
+                     VOTE CHOICE - 2ND ROUND
+    - F6000_LH_PL    IMD BRIDGING VARIABLE: CURRENT LOWER HOUSE ELECTION:
+                     VOTE CHOICE: PARTY LIST
+    - F6000_LH_DC    IMD BRIDGING VARIABLE: CURRENT LOWER HOUSE ELECTION:
+                     VOTE CHOICE: DISTRICT CANDIDATE               
+     
+More details can be found on all these variables in CSES Codebook Part 2
+by searching for the variable name (e.g., "E6000_PR_1") or using the search
+term "POTENTIAL CSES PRODUCT BRIDGING IDENTIFIER". 
+
+
+---------------------------------------------------------------------------
+>>> DERIVATIVE VARIABLES
+---------------------------------------------------------------------------
+
+CSES MODULE 6 includes several Derivative Variables. A Derivative Variable 
+is a variable that is derived from another variable or variables within the 
+CSES. Their purpose is to facilitate speedier analysis for users with 
+derivative variables capturing some of the most common analytical concepts 
+in the discipline.
+
+A list of the DERIVATIVE VARIABLES are below this explanation and can be
+navigated in the Codebook by searching for DERIVATIVE VARIABLES in
+Part 2 of the CSES MODULE 6 Codebook.
+      
+  - F2001_A         AGE OF RESPONDENT (IN YEARS) 
+  - F2001_GG        BIRTH GENERATION: GREATEST GENERATION
+                    (BORN 1927 OR BEFORE)  
+  - F2001_GS        BIRTH GENERATION: SILENT GENERATION
+                    (BORN FROM 1928 TO 1945)
+  - F2001_GBB       BIRTH GENERATION: BABY BOOMERS
+                    (BORN FROM 1946 TO 1964)
+  - F2001_GX        BIRTH GENERATION: GENERATION X
+                    (BORN FROM 1965 TO 1980)
+  - F2001_GY        BIRTH GENERATION: GENERATION Y
+                    (BORN FROM 1981 TO 1996)
+  - F2001_GZ        BIRTH GENERATION: GENERATION Z
+                    (BORN FROM 1997 ONWARDS) 
+  - F3010_TS        TURNOUT SWITCHER BETWEEN CURRENT ELECTION AND
+                    PREVIOUS ELECTION   
+  - F3010_FTV       FIRST-TIME VOTER IN CURRENT MAIN ELECTION
+  - F3011_OUTGOV    CURRENT MAIN ELECTION: VOTE CHOICE -  
+                    OUTGOING GOVERNMENT (INCUMBENT)
+  - F3011_VS_1      VOTE SWITCHER BETWEEN CURRENT ELECTION AND 
+                    PREVIOUS ELECTION          
+  - F3011_LR_CSES   CURRENT MAIN ELECTION - 
+                    VOTE FOR LEFTIST/CENTER/RIGHTIST - CSES
+  - F3011_LR_MARPOR CURRENT MAIN ELECTION - VOTE FOR LEFTIST/RIGHTIST (RILE)
+                    - MARPOR/CMP
+  - F3011_IF_CSES   CURRENT MAIN ELECTION - VOTE CHOICE BY
+                    IDEOLOGICAL FAMILY CLASSIFICATION - CSES
+  - F3100_LR_CSES   CURRENT MAIN ELECTION - VOTE CHOICE LINKED WITH
+                    CSES COLLABORATOR EXPERT JUDGMENT L-R
+  - F3100_LR_MARPOR CURRENT MAIN ELECTION - VOTE CHOICE LINKED WITH
+                    MARPOR/CMP RILE  
+  - F3100_POP_CSES  CURRENT MAIN ELECTION - VOTE CHOICE LINKED WITH
+                    CSES COLLABORATOR EXPERT JUDGMENT ON POPULISM       
+  - F3100_IF_CSES   CURRENT MAIN ELECTION - VOTE CHOICE LINKED WITH
+                    CSES COLLABORATOR EXPERT JUDGMENT IDEOLOGICAL FAMILY
+  - F5019_C         PARTY OF THE PRESIDENT CHANGED
+  - F5020_C         PARTY OF THE PRIME MINISTER CHANGED
+          
+
+---------------------------------------------------------------------------
+>>> IDENTIFICATION VARIABLES
+---------------------------------------------------------------------------
+
+There are several Identification Variables in CSES MODULE 6 which allow
+users to not only identify an individual respondent, but election studies, 
+and polities. 
+
+
+<<>> ELECTION STUDY IDENTIFIERS
+
+Each Election Study in CSES MODULE 6 is uniquely identified by two 
+variables, namely: 
+
+   - variable F1004 ID VARIABLE - ELECTION STUDY (ALPHABETIC POLITY)
+     This variable is an alphanumerical code constructed from two
+     components: the alpha-3 country codes assigned by the United Nations
+     Statistics Divisions. The remaining characters correspond 
+     to the year of the election. 
+     E.g., TUR_2023
+
+   - variable F1005 ID VARIABLE - ELECTION STUDY (NUMERIC POLITY)
+     This variable is an eight-digit numerical code constructed from two
+     components: the CSES polity code (variable F1006) and the 
+     year in which the election took place (F1009). The first three digits
+     represent the country codes assigned by the United Nations Statistics
+     Division. The fourth digit distinguishes between multiple election
+     studies within a single country for the same election. The final 
+     four digits represent the year of the election. 
+     E.g., 03602022. AUSTRALIA (2022)
+
+
+<<>> POLITY IDENTIFIERS
+
+Each Polity in CSES MODULE 6 is uniquely identified by four variables, 
+namely: 
+
+   - variable F1006_UN ID COMPONENT - POLITY UN ISO_3166-1 NUMERIC CODE
+     This variable consists of the three-digit numerical country codes 
+     assigned by the United Nations Statistics Division to polities
+     in line with the International Organization for Standardization (ISO).
+     The numerical codes are maintained by the United Nations Statistics 
+     Division and are based on the M49 UN framework. 
+     E.g., 036. AUSTRALIA
+
+   - variable F1006_UNALPHA2 ID COMPONENT - POLITY UN ISO_3166-1 
+     ALPHABETIC TWO LETTER CODE
+     This variable consists of the two-letter country codes assigned by 
+     the United Nations Statistics Division to polities based on the 
+     International Organization for Standardization (ISO). The lettered
+     codes are maintained by the ISO as part of their ISO3166-1 standard. 
+     E.g., DK. Denmark (DK=Denmark)
+
+   - variable F1006_UNALPHA3 ID COMPONENT - POLITY UN ISO_3166-1 
+     ALPHABETIC THREE LETTER CODE
+     This variable consists of the three-letter country codes assigned by 
+     the United Nations Statistics Division to polities based on the 
+     International Organization for Standardization (ISO). The lettered
+     codes are maintained by the ISO as part of their ISO3166-1 standard. 
+     E.g., PRT. Portugal (PRT=Portugal)
+
+   - variable F1006_NAM ID COMPONENT - POLITY NAME
+     This variable consists of polity names based on those used by the
+     United Nations Statistics Division. 
+     E.g., France
+
+These polity identifiers allow for easy data bridging with other macro
+data sources such as the World Bank. 
+
+
+<<>> POLITY GEOGRAPHIC IDENTIFIERS
+
+   - variable F1007_REG ID COMPONENT - POLITY UN GEOGRAPHIC REGIONS NUMERIC
+                                       CODES
+     This variable consists of a two-digit numerical code assigned by the
+     United Nations Statistics Division to polities based on their 
+     geographic (continental) region. Each polity is shown in one 
+     region only. 
+
+
+<<>> POLITY MEMBERSHIP IDENTIFIERS
+
+CSES MODULE 6 classifies whether each polity was a member of two 
+international organizations at the time of the election, namely the  
+Organization for Economic Cooperation and Development (OECD) and the  
+European Union (EU).
+
+   - variable F1007_OECD ID COMPONENT - POLITY MEMBER OF OECD
+     This variable classifies whether polity was a member of the 
+     Organization for Economic Cooperation and Development (OECD) at the
+     time of the election. 
+
+   - variable F1007_EU ID COMPONENT - POLITY MEMBER OF EU
+     This variable classifies whether polity was a member of the European
+     Union at the time of the election. 
+
+
+<<>> RESPONDENT IDENTIFIER
+
+Respondents can be uniquely identified in the dataset by variable F1003_1. 
+It is an 18-character identifier. The first three characters are the numeric
+version of the country codes assigned by the United Nations Statistics
+Division. If applicable, the fourth character distinguishes between 
+multiple studies conducted within a single country, for the same election. 
+If only one study is in place for the election, this digit is 0. The fifth
+through eighth characters correspond to the election year (see variable
+F1009). The last ten characters are the respondent identifier from F1003_2,
+which is unique within each election study.
+
+
+<<>> COVID-19 PANDEMIC IDENTIFIER
+
+Some studies were conducted either partially or completely during the 
+COVID-19 pandemic. A pandemic is an epidemic of infectious disease that has 
+spread across a large region or multiple or worldwide and affecting a
+substantial number of individuals.                   
+At the time of writing, COVID-19 was first discovered in November
+2019. Prior to the onset of CSES MODULE 6, the World Health Organization
+classified COVID-19 as a pandemic on March 11, 2020.
+On May 5, 2023, the WHO assessed that given the disease was by now well 
+established and ongoing, it no longer fit the definition of a Public Health
+Emergency of International Concern (PHEIC) and hence the state of a global
+emergency.
+An election (or election study) in CSES MODULE 6 is classified as taking
+place during the COVID-19 pandemic if the election itself took place and/or
+the entire study fieldwork was administered before May 5, 2023, the end
+date of the WHO PHEIC classification. CSES classifies whether the election
+took place after, partially, or fully during the pandemic - this is 
+identified in the dataset by variable F1012_2.
+
+
+---------------------------------------------------------------------------
+>>> MISSING DATA
+---------------------------------------------------------------------------
+
+Multiple response categories can relate to missing data relating from 
+not applicable to a respondent refusing to answer or failing to answer 
+a question. Users should consult individual variables for the specific
+missing designations assigned to each variable. 
+
+For some election studies in which we could not distinguish among various
+answers, the code "missing" may include cases where respondents refused 
+to answer the question, "don't know" responses, and cases where there
+a particular question went unanswered for other reasons.
+Moreover, while CSES guidelines request that the response categories 
+"Refused" and "Don't Know" be volunteered responses, this was not always 
+consistently applied. For instance, sometimes the options were offered 
+explicitly to respondents in mail-back surveys, which do not have the 
+benefit of an interviewer being present. To identify whether the response 
+options were volunteered (or not) in a particular election study, users 
+should refer to the original questionnaires of each polity. These are
+available on the MODULE 6 page. 
+
+While there is no consistent CSES convention regarding the application of
+missing values, some commonalities exist, namely: 
+- Not applicable values are commonly designated as 7, 97, 997, 9997 etc...
+- Don't know values are commonly designated as 8, 98, 998, 9998 etc... 
+- Missing values are commonly designated as 9, 99, 999, 9999 etc...
+
+However, users are advised that the commonalities do not always hold
+and they are advised to consult individual variables for the specific
+missing designations assigned to the variable in question. 
+
+
+---------------------------------------------------------------------------
+>>> WEIGHTS
+---------------------------------------------------------------------------
+
+CSES provides several weight measures in the CSES data (see variables 
+F1101-F1105 inclusive). There is a strong degree of variance in the sample 
+designs used in the national election studies included in CSES. Hence, the
+weights provided by Collaborators vary significantly. Users are advised
+to read carefully about the different weights in CSES to ascertain
+whether their analyses should be subjected to weighting and if so which
+kind. 
+
+CSES provides users with up to three original weights from each national
+election study (see variable F1101_) namely:
+
+  - SAMPLE WEIGHT (variable F1101_1): 
+    intended to correct for unequal selection probabilities resulting from 
+    booster samples procedures for selection within the household, 
+    non-response, or other sample design features 
+
+  - DEMOGRAPHIC WEIGHT (variable F1101_2): 
+    intended to adjust sample distributions of socio-demographic 
+    characteristics to more closely resemble the characteristics of the 
+    population
+
+  - POLITICAL WEIGHT (variable F1101_3): 
+    intended to reconcile discrepancies in the reported electoral behavior
+    of respondents' vis-a-vis official electoral counts. 
+
+For more information on polity weights, users are advised to consult Part 5
+of the CSES Codebook or the individual design reports of each study. 
+
+The remainder of the weight variables in the dataset are derivative
+weights, constructed from the original weights. They are: 
+ 
+  - FACTOR WEIGHTS (variable F1102)
+    These variables report the mean weight of each type, within each 
+    polity. The resulting factors are then used to create the derivative 
+    Polity Weights (variable F1103 explained below). 
+
+  - POLITY WEIGHTS (variable F1103)
+    These variables report standardized versions (with a mean 1 within the 
+    polity) of the original weights provided with the component election 
+    studies, described in F1101. They are the ratio of each weighting 
+    factor to the mean weight (F1102) of each type, calculated within each
+    polity.
+
+  - SAMPLE SIZE ADJUSTMENT WEIGHT (variable F1104)
+    This variable reports the ratio of the average sample size to each 
+    election study sample. The resulting factor is then used to create the
+    derivative Dataset Weights, see variable F1105. 
+
+  - DATASET WEIGHTS (variable F1105)
+    These variables are intended for micro-level analyses involving the 
+    entire CSES sample. Using the sample size adjustment (F1104), the 
+    centered weights (F1103) are corrected such that each election study
+    component contributes equally to the analysis, regardless of the 
+    original sample size. 
+
+Details of the calculation of the above derivative weights, including 
+the precise STATA code used to create the weights, can be found in the 
+variable notes for variables F1102, F1103, F1104, and F1105.     
+
+Analysts are advised to read the weight documentation carefully to ensure
+their analyses are weighted appropriately (if applicable). The CSES 
+project does not provide advice as to which weights are appropriate to 
+use in particular circumstances. This is best left to analysts to decide 
+based on their detailed knowledge of the research question under 
+investigation. We advise analysts to consult variable notes F1101-F1105
+for more specific information on each polities weight and the derivative 
+weights calculated for the Cross-National Dataset.
+
+
+---------------------------------------------------------------------------
+>>> FREEDOM STATUS OF ELECTIONS
+---------------------------------------------------------------------------
+
+The majority of studies that comprise CSES are collected in countries that
+have free or partly free elections. However, sometimes a Collaborator will
+include the CSES module in a study of a polity that is a developing
+democracy or that is considered not free. If the data collection is judged
+to be of sufficiently high quality, the study is included in CSES datasets
+even if the polity is considered to be not free. The decision regarding
+inclusion of particular polities in an analysis is thus left to users. 
+
+To assist users in making appropriate decisions concerning their 
+analysis, CSES MODULE 6 includes two measures about the freedom 
+and liberty of a polity in the year the election was held (and indeed
+the two preceding years), namely: 
+
+   - FREEDOM HOUSE RATING (variables F5070_)
+     Freedom House assigns a numerical rating of a polity on a scale of 
+     1 to 7 providing an indication of freedom. 
+
+   - POLITY IV DEMOCRACY-AUTOCRACY RATING (variables F5071_)
+     Polity IV assigns a numerical rating to a polity on a scale of -10 
+     to 10 indicating whether the polity is strongly democratic or strongly
+     autocratic. These data are last available for the years 2016-2018. 
+
+Freedom House and Polity IV are not affiliated with the CSES project.
+
+
+---------------------------------------------------------------------------
+>>> PROCESSING CHECKS OF MODULE 6 DATASET BY THE CSES SECRETARIAT
+---------------------------------------------------------------------------
+
+Besides processing MODULE 6 studies from individual polities to ensure they
+are fit for comparative analysis, which involves detailed checking of the 
+individual studies' data, a key role of the CSES Secretariat is to perform
+several checks on the MODULE 6 Dataset before it is released. These checks
+include (but are not confined to): 
+
+   - CHECK OF DUPLICATE IDs
+     Identification of respondents with corresponding answers to all 
+     questions or respondent identification data that are similar. 
+
+   - DERIVATIVE VARIABLES CHECKS
+     To identify all derivative variables created by the CSES Secretariat
+     are coded in line with original variables and documented in the CSES
+     Codebook comprehensively. 
+
+   - INCONSISTENCY CHECKS
+     To identify sets of variables which are inconsistent, or could be 
+     perceived as inconsistent (e.g., strange skip pattern, incompatible
+     answers to related questions). The CSES convention is not to change 
+     data that we receive from national Collaborators. Instead, 
+     inconsistencies are noted in the CSES Codebook under the appropriate
+     variable and the data are left unchanged. This allows users to make
+     the final determination on whether inconsistencies may affect their
+     analyses.  
+
+   - IRREGULAR AND EXTRAORDINARY CODE CHECKS 
+     To identify irregular and extraordinary codes in the CSES MODULE 6 
+     Dataset. Sometimes these irregular or extraordinary codes are 
+     legitimate in the sense that they may be accounted for by a polity
+     deviation on a particular variable.
+
+   - THEORETICAL CHECKS  
+     These checks explore expected relationships between variables that 
+     we might expect to occur (e.g., correlation between Political Efficacy
+     and Satisfaction with Democracy). We do this by exploring 
+     distributions, correlation analysis, and regression analysis. 
+
+   - VARIABLE AND VALUE LABEL CHECKS
+     Checking all variables in the CSES MODULE 6 Dataset to ensure they
+     are appropriately assigned labels and documented in the CSES Codebook. 
+
+   - INTERVIEW(ER) VALIDATION CHECKS
+     Review performed at the respondent and interviewer levels using 
+     various statistical techniques to identify anomalous response 
+     patterns in the data (e.g., identification of highly similar 
+     interviews, straightlining, unusually high proportion of interviews 
+     conducted by an individual interviewer on a single day).
+
+If you identify any potential issue with the CSES MODULE 6 data, 
+please contact the CSES Secretariat by e-mail at: cses@umich.edu 
+
+
+===========================================================================
+))) CSES MODULE 6 BIBLIOGRAPHY
+===========================================================================
+
+The below list constitutes a list of the primary sources that the CSES 
+Secretariat has consulted in the development of CSES MODULE 6 Codebook and
+Data. The list is not exhaustive. 
+
+Please note: Period symbol at end of URL addresses may be considered a full
+stop or could be part of the URL address.
+
+Bendjaballah, S. and N. Sauger. 2023. France: Political developments
+and data for 2022: Back to normal?. European Journal of Political Research
+Political Data Yearbook (62) 1:, 167-189. DOI: 10.1111/2047-8852.12403 
+
+Delivorias, A. and E. Lazarou. 2023. "Brazilian democracy in the aftermath
+of 8 January". European Parliament Briefing PE 739.354 - February 2023. 
+Available at: 
+https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/739354/EPRS_BRI
+(2023)739354_EN.pdf (Date accessed: August 9, 2024).
+
+Doctor, M. 2022. "What Happens in Brazil Won't Stay in Brazil: The 2022 
+Brazilian Elections." Political Insight 13(3): 8-11. 
+DOI: 10.1177/20419058221127464 
+
+Hansen, K. M. and R. Stubager. 2023. "The Danish National Election Study 
+2022". CVAP Working Paper Series 5, Copenhagen: Department of Political
+Science, University of Copenhagen. Available at: 
+https://digidata.rigsarkivet.dk/aflevering/51035 
+(Date accessed: May 14, 2024).
+
+Lopes, H. F. 2023. "An unexpected Socialist majority: the 2022 Portuguese
+general elections." West European Politics 46 (2): 437-450. 
+DOI: 10.1080/01402382.2022.2070983.
+
+Magone, J. M. 2022. "Portugal: Political Developments and Data in 2021
+An Election Year and the Dismissal of the Costa II Government." European
+Journal of Political Research 61 (1): 374-384.
+DOI: 10.1111/2047-8852.12383.
+
+Superior Electoral Court Brazil (TSE), International Affairs Unit. 2022.
+Practical Guide: 2022 Brazilian Elections.  Brasilia: Tribunal Superior 
+Eleitoral. https://international.tse.jus.br/en/assuntos-internacionais/
+guia-pratico-para-pessoas-estrangeiras_ingles_digital-1.pdf 
+(Date accessed: October 14, 2024).
+
+Tarouco, G. 2023. Brazilian 2022 general elections: process, 
+results, and implications. Revista Uruguaya de Ciencia Politica 32(1): 
+153-168. DOI:10.26851/rucp.32.1.7 
+
+Vujovic, Z. and A. Nenezic. 2023. "Montenegro in Crises: Navigating 
+Political Turmoil and the Path to European Integration". Suedosteuropa 
+Mitteilungen 63 (2): 25-44. Available at: 
+https://www.sogde.org/site/assets/files/27497/vujovic_23046_sog_mitteilungen
+_02-2023_internet-4.pdf (Date accessed: June 26, 2024).
+
+Walker, N. 2022. "Brazil: 2022 presidential election." Research Briefing, 
+House of Commons Library. Available at: 
+https://researchbriefings.files.parliament.uk/documents/CBP-9653/
+CBP-9653.pdf (Date accessed: August 9, 2024).
+
+Wojnicki, J. 2023. "The 2023 Elections in Montenegro - A Real Political 
+Breakthrough?" In Poland's Experience in Combating Disinformation: 
+Inspirations for the Western Balkans, edited by A. Adamczyk, G. Ilik, M. 
+Tahirovic, and K. Zajaczkowski, 199-209. Oficyna Wydawnicza ASPRA-JR. 
+DOI: 10.33067/978-83-8209-282-0
+
+
+//END OF FILE

@@ -1,0 +1,795 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 6 (2021-2026)
+
+                 CODEBOOK PART 5: STUDY DESIGN AND WEIGHTS
+
+                  FIRST ADVANCE RELEASE - DECEMBER 17, 2024
+ 
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 6
+FIRST ADVANCE RELEASE [dataset and documentation]. December 17, 2024 
+version. doi:10.7804/cses.module6.2024-12-17.
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-1760058 and
+SES-2214278, the GESIS - Leibniz Institute for the Social Sciences, 
+the University of Michigan, in-kind support of participating election 
+studies, the many organizations that sponsor planning meetings and 
+conferences, and the numerous organizations that fund national 
+election studies by CSES Collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+ 
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+
+
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+
+
+))) OVERVIEW OF "CODEBOOK PART 5: STUDY DESIGNS AND WEIGHTS"
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+
+
+))) LIST OF TABLES IN CODEBOOK PART 5
+
+
+))) CSES MODULE 6: SUMMARY OF CSES MODULE 6 DATA 
+    >>> IDENTIFICATION, WEIGHT, AND STUDY ADMINISTRATION DATA
+    >>> MODULE 6 QUESTIONNAIRE VERSION
+    >>> POLITY WEIGHTS IN CSES
+    >>> TYPE OF POLITY WEIGHTS BY ELECTION STUDY
+    >>> DERIVATIVE WEIGHTS IN CSES
+
+
+))) OVERVIEW OF STUDY DESIGN & WEIGHTS BY POLITY & ELECTION YEAR
+    >>> OVERVIEW OF STUDY DESIGN & WEIGHTS - AUSTRALIA (2022)
+    >>> OVERVIEW OF STUDY DESIGN & WEIGHTS - BRAZIL (2022)
+    >>> OVERVIEW OF STUDY DESIGN & WEIGHTS - DENMARK (2022)
+    >>> OVERVIEW OF STUDY DESIGN & WEIGHTS - FRANCE (2022)
+    >>> OVERVIEW OF STUDY DESIGN & WEIGHTS - MONTENEGRO (2023)
+    >>> OVERVIEW OF STUDY DESIGN & WEIGHTS - PORTUGAL (2022)
+    >>> OVERVIEW OF STUDY DESIGN & WEIGHTS - TURKIYE (2023)
+
+
+===========================================================================
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+===========================================================================
+
+This dataset and all accompanying documentation is the "First Advance 
+Release" of CSES Module 6 (2021-2026).
+
+An Advance Release is a preliminary version of this CSES product. It thus 
+lacks some of the checking, cleaning, processing, documentation, data, and 
+variables that we anticipate in the Full Release of this product. The 
+product is still in development, and data will be added gradually. Many 
+election studies and variables that will eventually be present in the CSES 
+Module 6 Full Release are unavailable in this file. Advance Releases are 
+provided as a service to the CSES user community for those analysts who 
+find it valuable to work with preliminary versions of the dataset. 
+
+Users should anticipate future changes and improvements to the naming, 
+data, and documentation of variables and election studies that appear in an 
+advanced release file. If users wish to re-use their programming syntax/code 
+on a future release of this product, we recommend that the code be written 
+to accommodate these potential changes.
+
+Users of the Advance Release may also wish to monitor the errata for CSES 
+Module 6 on the CSES website to check for known errors that may impact their 
+analyses. To view errata for CSES Module 6, go to Data Download on the CSES 
+website, navigate to the CSES Module 6 download page, and click on the 
+Errata link in the white box to the right of the page.
+
+We hope that until the Full Release of CSES Module 6 is available, users 
+will find this and future CSES Module 6 Advance Releases helpful in their 
+work. 
+
+
+===========================================================================
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+===========================================================================
+
+We recommend that researchers become familiar with the CSES design, units 
+of analysis, documentation, and dataset weights before beginning their 
+investigations. For instance, while the set of respondents appearing within
+each election study represents their respective nations, the group of 
+nations that appear within CSES is not a random sample of countries 
+worldwide. Furthermore, while many election studies include 1,000 or so 
+respondents, other election studies may consist of over 10,000 respondents. 
+Some nations will have studies of more than one election in a CSES module,
+and occasionally there will be two independent studies of a single 
+election. Last, some election studies include oversamples of specific 
+sub-populations or would otherwise benefit from use of the included weight
+variables. We hope you find our website and documentation useful as you 
+proceed with your work, and welcome any questions or suggestions you have.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 5: STUDY DESIGNS AND WEIGHTS"
+===========================================================================
+
+Part 5 of the CSES Codebook provides users with general information about
+the design of each election study included in MODULE 6, as well as the 
+original polity level weights for each study. 
+ 
+The purpose of these overviews is to provide users with a quick summary 
+of the study and the weights, including information about the sample size, 
+the fieldwork period, sample selection procedures, the mode(s) of 
+interview, and the language(s) the survey was administered in. 
+ 
+For more detailed information about each study's design and its weights,
+including information on response rates, refusal conversion, questionnaire
+translation, respondent incentives etc., users are advised to consult 
+the Design Reports for each polity included in the study which are 
+available on the CSES MODULE 6 Study Page:  
+(see https://cses.org/data-download/cses-module-6-2021-2026/). 
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+===========================================================================
+
+In the CSES MODULE 6 dataset, all variables begin with the letter "F" 
+(F being the sixth letter of the English alphabet and thus signifying 
+MODULE 6).
+
+The CSES Codebook is especially extensive and users are advised that the 
+best way to navigate it is electronically. It is a .txt format which 
+allows it to be accessed via a variety of programs. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header. 
+
+>>> = Sub-section Header 1.
+
+<<>> = Sub-section Header 2. 
+
++++ = Tables.
+
+CSES QUESTION CLASSIFICATION = For survey level variables only, CSES  
+Question Classification details whether the variable is part of the CSES  
+Core component, which are questions asked repeatedly in CSES Modules, 
+whether a variable is part of the CSES Module Theme component, which are  
+questions specific to the Module Theme under exploration and might not be 
+included in CSES repeatedly, or whether a variable is a Derivative 
+Variable, which is explained below. 
+
+VARIABLE NOTES = Notes for particular variables. 
+
+ELECTION STUDY NOTES = Notes for a particular election study.  
+
+DERIVATIVE VARIABLE = Highlights a variable derived from another 
+variable or variables within the CSES.
+
+POTENTIAL POLITY LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at polity level.
+
+POTENTIAL REGIONAL LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at regional level.
+
+POTENTIAL TIME BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging by time.
+
+POTENTIAL PARTY/COALITION LEVEL BRIDGING IDENTIFIER = Highlights a variable
+that may be used for data bridging at party/coalition level.
+
+POTENTIAL CSES PRODUCT BRIDGING IDENTIFIER = Highlights a variable 
+that may be used for data bridging with other CSES products.
+
+For further details on the CSES MODULE 6 documentation, users are advised
+to consult Part 1 of the CSES Codebook. 
+
+
+===========================================================================
+))) LIST OF TABLES IN CODEBOOK PART 5
+===========================================================================
+
+Below, we list the Tables located in Codebook Part 5. Tables can be 
+accessed in the electronic version of the CSES Codebook by searching for
+"+++". 
+
+   - OVERVIEW OF ELECTION STUDIES INCLUDED IN MODULE 6 WITH NUMBER OF 
+     OBSERVATIONS, MODE OF DATA COLLECTION, AND FIELDWORK DATES
+   - TYPE OF POLITY WEIGHTS BY INDIVIDUAL ELECTION STUDIES
+
+
+===========================================================================
+))) CSES MODULE 6: SUMMARY OF CSES MODULE 6 DATA 
+===========================================================================
+
+The First Advance Release of CSES MODULE 6 contains data from the following 
+7 election studies in 7 polities. They are listed below in alphabetic
+order with an overview of some method parameters of each election study. 
+
+    | +++ TABLE: OVERVIEW OF ELECTION STUDIES INCLUDED IN MODULE 6 WITH
+    |            NUMBER OF OBSERVATIONS, MODE OF DATA COLLECTION, AND
+    |            FIELDWORK DATES
+    |
+    | POLITY (ELEC YEAR)     No of     Mode of      Dates of Fieldwork
+    |                    Observations Interview      (Start-End date)     
+    | ---------------------------------------------------------------------
+    | AUSTRALIA (2022)      3,269        MX       May 23, 2022-Jun 05, 2022
+    | BRAZIL (2022)         2,001       F2F       Nov 19, 2022-Dec 04, 2022
+    | DENMARK (2022)        1,549        MX       Nov 02, 2022-Feb 01, 2023
+    | FRANCE (2022)         1,575       INT       Apr 28, 2022-May 26, 2022
+    | MONTENEGRO (2023)     1,200       F2F       Oct 14, 2023-Oct 30, 2023
+    | PORTUGAL (2022)       1,010       F2F       Feb 11, 2022-Mar 07, 2022
+    | TURKIYE (2023)        1,508       F2F       Aug 25, 2023-Oct 04, 2023
+    | ---------------------------------------------------------------------
+    | TOTAL                12,112 
+    | 
+    | Key:  F2F=Face-to-face. 
+    |       TP=Telephone.  
+    |       INT=Internet/Online.
+    |       MX=Mixed. 
+    |
+    | Users are advised to consult the VARIABLE NOTES for Variables F1019_
+    | in Codebook Part 2 concerning fieldwork date classifications.
+
+Users are advised that the above information relates to this Advance 
+Release. The product is still in development, and data will be added 
+gradually. Many election studies and variables that will eventually be 
+present in the CSES Module 6 Full Release are unavailable in this version 
+of the file. 
+
+
+---------------------------------------------------------------------------
+>>> IDENTIFICATION, WEIGHT, AND STUDY ADMINISTRATION DATA
+---------------------------------------------------------------------------
+
+CSES MODULE 6 includes several identification, weight, and study 
+administration variables allowing users the opportunity to account for 
+many methodological differences in the fielding of CSES across different
+studies and polities. A list of relevant IDENTIFICATION, WEIGHT, AND STUDY 
+ADMINISTRATION DATA are below this explanation and can be navigated in the 
+CSES Codebook by searching for IDENTIFICATION, WEIGHT, AND STUDY 
+ADMINISTRATION DATA in Part 2 of the CSES MODULE 6 Codebook, or by 
+searching the dataset for variables beginning "F1XXX". 
+
+  - F1008         ID COMPONENT - WHETHER POLITY ADMINISTERED CSES MODULE 6 
+                  MULTIPLE TIMES
+  - F1012_1       STUDY TIMING
+  - F1012_2       STUDY TIMING WITH RESPECT TO COVID-19 PANDEMIC
+  - F1013         STUDY CONTEXT
+  - F1015_1       MODE OF INTERVIEW - STUDY - FIRST
+  - F1015_2       MODE OF INTERVIEW - STUDY - SECOND
+  - F1015_3       MODE OF INTERVIEW - STUDY - THIRD
+  - F1016_1       MODE OF INTERVIEW - RESPONDENT - FIRST
+  - F1016_2       MODE OF INTERVIEW - RESPONDENT - SECOND
+  - F1016_3       MODE OF INTERVIEW - RESPONDENT - THIRD
+  - F1017         SELF-SELECTION INTO MODE OF INTERVIEW
+  - F1018_1       DURATION OF FIELDWORK
+  - F1018_2       DAYS FIELDWORK STARTED POST ELECTION
+  - F1019_M       DATE QUESTIONNAIRE ADMINISTERED - MONTH
+  - F1019_D       DATE QUESTIONNAIRE ADMINISTERED - DAY
+  - F1019_Y       DATE QUESTIONNAIRE ADMINISTERED - YEAR  
+  - F1020_1       DAYS INTERVIEW CONDUCTED POST FIRST ROUND OF ELECTION
+  - F1020_2       DAYS INTERVIEW CONDUCTED POST SECOND ROUND OF ELECTION
+  - F1021         DURATION OF INTERVIEW
+  - F1022_1       INTERVIEWER ID WITHIN ELECTION STUDY
+  - F1022_2       INTERVIEWER GENDER    
+  - F1023         LANGUAGE OF QUESTIONNAIRE ADMINISTRATION
+  - F1024         QUESTIONNAIRE VERSION
+  - F1100         ID COMPONENT - SAMPLE COMPONENT
+  - F1101_1       ORIGINAL WEIGHT: SAMPLE
+  - F1101_2       ORIGINAL WEIGHT: DEMOGRAPHIC
+  - F1101_3       ORIGINAL WEIGHT: POLITICAL
+  - F1102_1       FACTOR: MEAN OF SAMPLE WEIGHT
+  - F1102_2       FACTOR: MEAN OF DEMOGRAPHIC WEIGHT
+  - F1102_3       FACTOR: MEAN OF POLITICAL WEIGHT
+  - F1103_1       POLITY WEIGHT: SAMPLE
+  - F1103_2       POLITY WEIGHT: DEMOGRAPHIC
+  - F1103_3       POLITY WEIGHT: POLITICAL
+  - F1104         FACTOR: SAMPLE SIZE ADJUSTMENT
+  - F1105_1       DATASET WEIGHT: SAMPLE
+  - F1105_2       DATASET WEIGHT: DEMOGRAPHIC
+  - F1105_3       DATASET WEIGHT: POLITICAL
+
+
+---------------------------------------------------------------------------
+>>> MODULE 6 QUESTIONNAIRE VERSION
+---------------------------------------------------------------------------
+
+Studies included in the CSES MODULE 6 fielded one of two versions of the
+CSES questionnaire: the pilot questionnaire or the finalized questionnaire.
+ 
+Variable F1024 "QUESTIONNAIRE VERSION" in the Dataset classifies for Users
+the studies that fielded the pilot version of the questionnaire and the
+finalized questionnaire. All studies in the current release fielded the
+finalized questionnaire.
+ 
+The differences between the pilot and finalized questionnaire will be
+documented in the VARIABLE NOTES in CSES Codebook Part 2, once pretest
+studies are integrated into the CSES MODULE 6 dataset.
+
+
+---------------------------------------------------------------------------
+>>> POLITY WEIGHTS IN CSES
+---------------------------------------------------------------------------
+
+CSES provides users with up to three original weights from each 
+national election study (see variable F1101_), namely:
+
+  - SAMPLE WEIGHT (variable F1101_1): 
+    intended to correct for unequal selection probabilities resulting from 
+    booster samples procedures for selection within the household, 
+    non-response, or other sample design features 
+
+  - DEMOGRAPHIC WEIGHT (variable F1101_2): 
+    intended to adjust sample distributions of socio-demographic 
+    characteristics to more closely resemble the characteristics of the 
+    population
+
+  - POLITICAL WEIGHT (variable F1101_3): 
+    intended to reconcile discrepancies in the reported electoral behavior
+    of respondents vis-a-vis official electoral counts. 
+
+Users are advised to read carefully about the different weights in CSES to 
+ascertain whether their analyses should be subjected to weighting and if so 
+which kind. The CSES project does not provide advice as to which weights 
+are appropriate to use in particular circumstances. This is best left to 
+analysts to decide based on their detailed knowledge of the research 
+question under investigation. We advise analysts to consult each Polity's
+Design Report on the CSES MODULE 6 Study Page (see
+https://cses.org/data-download/cses-module-6-2021-2026/). 
+For information on derivative weights calculated for the Cross-National 
+Dataset, users should consult Parts 1 and 2 (variables F1101-F1105) 
+of the CSES Codebook. 
+
+
+---------------------------------------------------------------------------
+>>> TYPE OF POLITY WEIGHTS BY ELECTION STUDY
+---------------------------------------------------------------------------
+
+         |                            +++
+         |               TABLE: TYPE OF POLITY WEIGHTS  
+         |               BY INDIVIDUAL ELECTION STUDIES
+         |
+         |                          Sample     Demographic   Political  
+         | POLITY (ELEC YEAR)       Weight       Weight       Weight  
+         | -----------------------------------------------------------
+         | AUSTRALIA (2022)           X            -            -
+         | BRAZIL (2022)              -            X            -
+         | DENMARK (2022)             -            X            X
+         | MONTENEGRO (2023)          -            X            -
+         | PORTUGAL (2022)            -            X            X
+         | TURKIYE (2023)             -            X            -
+         | -----------------------------------------------------------
+         | KEY: X = available; - = not available.
+         |
+         | Weights are unavailable for FRANCE (2022).
+         
+
+---------------------------------------------------------------------------
+>>> DERIVATIVE WEIGHTS IN CSES
+---------------------------------------------------------------------------
+
+Additionally to the original polity weights listed in the previous section
+by national election study, CSES provides users with several derivative
+weights, constructed from the original weights. They are: 
+ 
+  - FACTOR WEIGHTS (variable F1102)
+    These variables report the mean weight of each type, within each 
+    polity. The resulting factors are then used to create the derivative 
+    Polity Weights (F1103 explained below). 
+
+  - POLITY WEIGHTS (variable F1103)
+    These variables report standardized versions (with a mean of 1 within  
+    the polity) of the original weights provided with the component 
+    election studies, described in F1101. They are the ratio of each 
+    weighting factor to the mean weight (F1102) of each type, calculated 
+    within each polity.
+
+  - SAMPLE SIZE ADJUSTMENT WEIGHT (variable F1104)
+    This variable reports the ratio of the average sample size to each 
+    election study sample. The resulting factor is then used to create the
+    derivative Dataset Weights, F1105. 
+
+  - DATASET WEIGHTS (variable F1105)
+    These variables are intended for micro-level analyses involving the 
+    entire CSES sample. Using the sample size adjustment (F1104), the 
+    centered weights (F1103) are corrected such that each election study
+    component contributes equally to the analysis, regardless of the 
+    original sample size. 
+
+Details of the calculation of the above derivative weights, including 
+the precise STATA code used to create the weights, can be found in the 
+variable notes for variables F1102, F1103, F1104, and F1105 in Part 2 of
+the CSES MODULE 6 Codebook.     
+
+Analysts are advised to read the weight documentation carefully to ensure
+their analyses are weighted appropriately (if applicable). The CSES 
+project does not provide advice as to which weights are appropriate to 
+use in particular circumstances. This is best left to analysts to decide 
+based on their detailed knowledge of the research question under 
+investigation. We advise analysts to consult variable notes for F1102-F1105 
+in Codebook Part 2 for more specific information on how the derivative 
+weights were calculated for the Cross-National Dataset.
+
+
+===========================================================================
+))) OVERVIEW OF STUDY DESIGN & WEIGHTS BY POLITY & ELECTION YEAR
+===========================================================================
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - AUSTRALIA (2022)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2022 Federal election in Australia occurred on Saturday, May 21, 2022.
+Fieldwork for the Australian study began on May 23, 2022, two days after 
+election day. Data collection was completed after 14 days, ending on June 5, 
+2022. The study contains information from Australian adults aged 18 years 
+or over who were enrolled on the electoral register, and eligible to vote. 
+The only excluded group are prison inmates serving sentences below three 
+years which would be eligible to vote. This represents 0.11% of the 
+electorate.
+
+The study, undertaken by Australian National University (ANU), was conducted
+as part of wave 61 of the Social Research Center's Life in Australia panel. 
+Members of the panel are Australian residents aged 18 years or more. 
+A total of 4,338 active panel members were invited to participate in the
+study, with 3,556 completing the interview. Of these 3,556 interviews, 287 
+respondents were removed from the data because they were not citizens and 
+therefore ineligible to vote, reducing the total sample size to 3,269 
+observations. 
+The survey was administered in English. The study used a mixed-mode 
+approach, including both Internet and telephone (landline and cell) surveys. 
+Respondents were initially contacted and recruited via their landline or 
+mobile phone and offered to complete the questionnaire online. Still, they
+could self-select into the alternative mode and complete the study via 
+telephone if they were uncomfortable completing surveys over the Internet 
+or if Internet access was problematic. Of the 3,269 respondents comprising
+the CSES sample, 3,158 observations completed the survey online, while the
+remaining 111 respondents were interviewed via telephone.
+
+A dual-frame random digit dialing (RDD) sample design was employed to
+undertake recruitment of the Life in Australia panel in 2016, with a 30:70
+split between the landline RDD sample frame and a cell phone RDD sample
+frame. An alternating next/last birthday method was used for the landline 
+phone sample to randomly select respondents from households with two or more
+people. For the cell phone sample, the individual who answered the call was 
+the selected respondent. Only one member per household was invited to join 
+the panel. Between May 2018 and September 2021, the panel was refreshed 
+multiple times with new panelists. All respondents receive a small incentive
+for joining the panel and another incentive for each survey they complete.
+Further details on the panel are provided in the study's Design Report. 
+
+<<>> POLITY WEIGHTS
+
+The 2022 Australian Study provides a COMBINED SAMPLE and DEMOGRAPHIC 
+WEIGHT. This weight adjusts for the unequal probability of selection. It is 
+calculated based on a model-based approach that uses a model to "project" 
+the responding sample to the population. The panel collects more than 20 
+characteristics about respondents from which the final set of covariates 
+selected for the model was: Adults in the household, age group by highest 
+education, gender, language spoken at home, remoteness, and state. This set 
+was chosen since it yielded a satisfactory between bias and efficiency, and 
+contained a wide range of model covariates. To adjust for wave biases, the 
+weights were further adjusted through the use of propensity scores. 
+Whereas all non-citizens (287 respondents from overall 3,556 respondents) 
+were dropped from the dataset for CSES Module 6, the weight calculation 
+included these non-citizens. Collaborators note that their statistician,
+who devised the weights, advised them to retain the weight calculated 
+based on ineligible respondents as a weight excluding them would make 
+negligible differences to analysis. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - BRAZIL (2022)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2022 Brazilian general elections were held on Sunday, October 2, 2022
+(first round) with a second round of Presidential elections held on Sunday, 
+October 30, 2022. The Brazilian Election Study was conducted between 
+November 19 and December 4, 2022. Fieldwork lasted 16 days, starting 48 days
+after the first round. Quaest collected data in face-to-face interviews
+using an electronic questionnaire. 
+Interviewing was conducted in Portuguese, with all Brazilian citizens aged
+16 years old and older and registered to vote eligible to be interviewed. 
+The total number of observations from the Brazil Study is 2,001.
+
+The survey employed a multi-stage stratified random sample design. In the
+first stage, municipalities, which constitute the primary sampling units
+(PSUs), were selected through systematic PPS (Probability Proportional to
+Size), based on the voting-age population. Prior to selection, 
+municipalities were stratified by region and state. In total, 119 PSUs were
+selected. In the second stage, census tracts within municipalities were
+selected again by PPS. In the third and final stage, a fixed number of
+respondents were selected from within each census tract by quota sampling
+based on gender, age, education, and family income. Quotas were set in 
+accordance with the latest numbers from the TSE 2018 (Superior Electoral
+Court), the Brazilian Institute of Geography and Statistics' (IBGE) national
+household surveys from 2022 and 2021, as well as the latest census from 
+2010. The households to be contacted within census tracts were chosen by
+random walk. If the individual within the selected household matched the
+quotas and the interview was successfully conducted, the interviewer, 
+walking clockwise, was instructed to skip three households and approach the
+fourth one. If the respondent was not available or did not fit the quota,
+the interviewers would move to the next household.
+
+
+<<>> POLITY WEIGHTS
+
+The 2022 Brazil Study provides a DEMOGRAPHIC WEIGHT. The weight corrects for
+imbalances between the sample and the population regarding gender, age, 
+education, household income, and region - based on official records of the
+Superior Electoral Court 2022 and the IBGE-PNAD 2022 (Brazilian Institute
+for Geography and Statistics). Calculations of the weight are based on
+raking/iterative proportional fitting, using the package "anesrake" in the
+statistical software R.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - DENMARK (2022)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2022 Danish general election took place on Tuesday, November 1, 2022, 
+except for the Faeroe Islands, where respondents voted early on Monday, 
+October 31, 2022, due to a regional holiday. 
+Fieldwork for the 2022 Danish post-election study was conducted by Epinion
+A/S between November 2, 2022 -one day after the election - and February 1,
+2023 (lasting 92 days). The questionnaire was administered in Danish as an
+online survey with the option to answer a paper-based mail-back 
+questionnaire. The sample is meant to represent eligible voters in Denmark -
+Danish citizens aged 18 and older who are registered to vote automatically
+if they permanently live in Denmark. The total number of observations from
+the Denmark Study is 1,549.
+
+The study is based on a simple random sample drawn from the Danish person 
+register ("CPR-register") wherein all Danish citizens and long-term 
+inhabitants of Denmark must be registered. Hence, individuals were the 
+primary sampling unit and had the same probability of being selected. 
+Respondents were initially contacted personally via digital mail 
+("Digital Post") with the survey being verified by a personal access coding
+system - or by mail for those exempt from digital postal services. With few
+exceptions, digital mail is mandatory for Danish citizens. Respondents 
+initially not answering the web survey were mailed a paper questionnaire
+as an alternative to the web survey. About 1% of the sample made use of this 
+opportunity, with the rest answering the questionnaire online. 
+To boost response rates, reminders and prompts have been employed through
+various channels (digital post, letters, SMS, postcards). Further, 
+collaborators conducted a lottery among all survey participants in which 
+respondents could win gift cards worth 500 DKK.
+
+
+<<>> POLITY WEIGHTS
+
+The 2022 Denmark Study provides a DEMOGRAPHIC WEIGHT and a COMBINED 
+DEMOGRAPHIC and POLITICAL WEIGHT. The demographic weight corrects 
+distributions in the sample to known socio-demographic population 
+characteristics (joint distribution of age groups, region, gender, plus 
+education). 
+The political weight was created using raking and builds upon the 
+demographic weight, additionally adjusting the sample according to vote 
+choice in the 2022 Danish general election.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - FRANCE (2022)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2022 French Presidential elections were held across two rounds. The
+first round was held on Sunday, April 10, 2022, and the second round 
+run-off held on Sunday, April 24, 2022. Interviewing for the French
+election study began on April 28, 2022 (18 days after the first round of 
+the Presidential elections) and continued until May 26, 2022 (total of
+36 days). The survey was administered in French, via the Internet. The
+total number of observations for the study is 1,575. 
+
+The sample is representative of the voting-eligible population,
+i.e., French citizens who were 18 years or older at the time of the 
+election, and living in mainland France (excluding Corsica). 
+
+Respondents for the French 2022 study were sampled from the ongoing ELIPSS 
+panel ("Etude Longitudinale par Internet Pour les Sciences Sociales"). 
+ELIPSS is an internet panel that was established in 2012, with two refresher
+samples conducted in 2016 and 2020. Panelists are selected randomly and 
+respond online every month to surveys designed by researchers. Further, they
+are provided with a touchscreen tablet connected to the internet to 
+participate ELIPSS surveys.
+Respondents recruited in 2012 and 2016 were sampled from the 2011 and 2014
+censuses, respectively. For the 2012 panel wave, participants were 
+recruited via various modes, including postal, phone and face-to-face. The
+2016 refresher sample was recruited entirely face-to-face. The second 
+refresher sample conducted in 2020 originates from the 2018 Fideli database
+(statistical database on housing and individuals based on fiscal 
+administration data). Originally planned as face-to-face, this refreshment
+phase had to be adapted to a multi-mode approach due to the COVID-19 
+pandemic. By January 2021, the panel included 2,300 active participants. 
+Variable F1100 in the CSES Module 6 datasets distinguishes between the three
+panel samples respondents originate from (2012, 2016, 2020).
+
+The 2022 French Election Study (FES 2022) was part of the wider ELIPSS panel
+program, comprising a total of five rounds of questioning conducted from 
+November 2021 to July 2022. The fourth round included the CSES Module 6 
+survey questions. However, researchers are advised that demographics as 
+envisaged by CSES were not collected as part of this fourth wave. Instead,
+the respective demographic and socio-economic information were gathered 
+through the regular annual ELIPSS demographic survey.
+
+
+<<>> POLITY WEIGHTS
+
+No weights provided.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - MONTENEGRO (2023)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2023 Montenegrin election study covers the Presidential elections, held
+on Sundays, March 19 and April 2, 2023, and legislative elections held on
+Sunday, June 11, 2023. 
+The post-election cross-sectional study was fielded between October 14 and 
+October 30, 2023, with fieldwork starting 125 days after the legislative 
+elections. The fieldwork was conducted by De Facto Consultancy based
+in Podgorica, with surveys administered face-to-face in Montenegrin. 
+The sample is meant to be representative of eligible Montenegrin citizens
+aged 18 years or older registered to vote. Institutionalized persons were
+excluded from the sampling frame (about 0.5 percent of the voting-eligible 
+population). The total number of observations from the Montenegro Study is
+1,200.
+
+The study was conceptualized as a stratified multi-stage random sample 
+with three stages in total. In the first stage, all polling stations were
+mapped to three geographic regions, North, Center and South. These regions
+reflect differences in population size, the distribution of ethnic groups,
+geography, economic strength, and history within Montenegro. Polling 
+stations inside the regions formed the primary sampling units (PSUs) as well
+as the second level of stratification, as they were divided into three
+groups according to their size. This proxies for the settlement size and the
+urban-rural divide within the country, with bigger polling places being more
+urban, and smaller polling places being more rural. Upon assigning all 
+polling places across the resulting nine cells (three per region, and 
+additionally three within each of the regions), PSUs were selected through
+the Probability Proportional to Size (PPS) method.
+
+The respondent selection within PSUs in the third and final stage followed a
+predefined procedure. Specifically, interviewers were instructed to select
+households by random walk, selecting every third house or household. Within
+each household, respondents were selected from a pool of all voting-eligible
+household members according to the last birthday method. The final sample
+includes 15 interviews from each PSU.
+
+
+<<>> POLITY WEIGHTS 
+
+The 2023 Montenegro Study provides a DEMOGRAPHIC WEIGHT based on national 
+census statistics from 2011, the latest available year. The demographic 
+weight is composed of two separate weights, one adjusting for the four main
+national groups (Montenegrins, Serbs, Albanians, and Bosniaks-Muslims), the
+other adjusting for gender and age groups (18-34, 35-54, 55+). The weight
+included in F1101_2 is a multiplication of the two individual weights.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - PORTUGAL (2022)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2022 Portuguese legislative election took place on Sunday, January 30,
+2022. The post-election study was administered between February 11 and 
+March 7, 2022 (25 days in total), with interviewer-administered in-person
+interviewing. Fieldwork was conducted by GfK Portugal, with questionnaires 
+administered in Portuguese. The total number of observations from the 
+Portugal Study is 1,010.
+
+The sample is meant to be representative of individuals aged 18 years or
+older residing in continental Portugal (mainland) and having the right to
+vote in the 2022 Parliamentary elections. The two autonomous regions of 
+Madeira and the Azores were excluded from the sample frame (5 percent of the 
+eligible population). The same holds for institutionalized persons (less 
+than 1 percent of the eligible population).
+
+The study is based on a multi-stage stratified random sample. The sample was
+stratified according to locality size ("habitat") and EU NUTS II regions; a 
+hierarchical geocode standard subdividing the territories of EU member 
+states. In the first step, the random selection of localities within each of
+the NUTS II regions was carried out following the General Index of INE's 
+Population Census, based on the sample matrix of NUTS II regions and 
+habitat. In each designated locality, sample points were then again sampled 
+randomly. Afterward, households were selected through random route. From 
+within each household, the eligible adult who was the next to have birthday
+was selected for the interview in the last step.
+
+
+<<>> POLITY WEIGHTS 
+
+The 2022 Portugal Study provides a DEMOGRAPHIC WEIGHT and a COMBINED 
+DEMOGRAPHIC and POLITICAL WEIGHT.
+The demographic weight (F1101_2) adjusts the sample to known population 
+characteristics regarding gender, age, and educational attainment. 
+Population estimates were taken from the 2011 Census. 
+The political weight (F1101_3) is a combined weight that adjusts the sample
+to match the 2022 legislative election results on top of the demographic
+weight.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - TURKIYE (2023)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2023 Turkish general elections were held on Sunday, May 14, 2023 
+(first round) with a second round of Presidential elections held on Sunday, 
+May 28, 2023. The 2023 Turkish election study is a post-election 
+cross-sectional study, with fieldwork starting 103 days after the 
+first round of elections. Fieldwork was conducted between August 25, 2023 
+and October 4, 2023 by Frekans Arastirma and the questionnaire was 
+administered face-to-face in Turkish. The total number of observations from 
+the Turkiye Study is 1,508.
+
+The sample is designed to be representative of the Turkish voting age 
+population (i.e., citizens aged 18 years or older). Institutionalized 
+persons in prisons or hospitals and military personnel were excluded from 
+the sampling frame (estimated to be less than 3% of the voting-eligible 
+population). Further, the sample excludes the NUTS-II region TR63 covering
+areas in the provinces of Hatay, Kahramanmaras, and Osmaniye (about 4% of 
+the total eligible population). Collaborators note the region was excluded 
+due to the earthquakes on February 6, 2023, which caused major devastation
+in the area, impeding proper sampling and interviewing. 
+
+The sample was realized as a stratified multi-stage random sample. NUTS-2 
+regions, as given by the Turkish Statistical Institute (TUIK), formed the 
+basis for stratification. In the first step, the target sample of 1,500 
+envisaged interviews was stratified according to each region's share of the
+urban and rural population as published by the Supreme Electoral Council
+following the Address-Based Population Registration System (ADNKS) records.
+After determining the desired number of interviews, collaborators requested
+household addresses from the Turkish Statistical Institute with a block size
+of 150. Ten voting-eligible respondents were targeted from each block, and
+no substitution was used. The probability-proportionate-to-size (PPS) 
+principle was used in distributing the address blocks to the NUTS-2 regions.
+Respondents within visited household addresses were selected according to a
+lottery method and based on the reported number of eligible individuals in
+each household. If, for any reason, the selected individual could not be
+interviewed on the first visit, the same household was visited up to three
+times until the interview was conducted successfully.
+
+
+<<>> POLITY WEIGHTS 
+
+The 2023 Turkiye Study includes a DEMOGRAPHIC WEIGHT. The weight adjusts 
+the sample to the following known population distributions of gender, age, 
+and educational attainment: Males and Females, eleven age groups (ranging 
+from 18-21 to 65+) and six categories for education (ranging from "no formal
+education" to "college graduate").
+The resulting 132 cells (2 x 11 x 6) were filled with the respective 
+respondents from within the sample. Afterward, the resulting distributions
+were compared to the latest available 2022 population statistics from the
+Turkish Statistical Institute. Demographic weights were then created based 
+on identified differences across population and sample distributions.
+
+
+/// END OF FILE

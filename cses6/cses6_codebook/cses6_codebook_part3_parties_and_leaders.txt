@@ -1,0 +1,1527 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 6 (2021-2026)
+
+                   CODEBOOK PART 3: PARTIES & LEADERS
+
+                   FIRST ADVANCE RELEASE - DECEMBER 17, 2024
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 6
+FIRST ADVANCE RELEASE [dataset and documentation]. December 17, 2024 
+version. doi:10.7804/cses.module6.2024-12-17.
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-1760058 and
+SES-2214278, the GESIS - Leibniz Institute for the Social Sciences, 
+the University of Michigan, in-kind support of participating election 
+studies, the many organizations that sponsor planning meetings and 
+conferences, and the numerous organizations that fund national 
+election studies by CSES Collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+
+
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+
+
+))) OVERVIEW OF "CODEBOOK PART 3: PARTIES & LEADERS"
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+
+
+))) CSES MODULE 6 CODING OF PARTIES/COALITIONS & LEADERS
+    
+    
+))) PARTIES AND LEADER CLASSIFICATIONS FOR CSES MODULE 6 BY POLITY &  
+    ELECTION YEAR
+    >>> PARTIES/COALITIONS & LEADERS: AUSTRALIA (2022)
+    >>> PARTIES/COALITIONS & LEADERS: BRAZIL (2022)
+    >>> PARTIES/COALITIONS & LEADERS: DENMARK (2022)
+    >>> PARTIES/COALITIONS & LEADERS: FRANCE (2022)
+    >>> PARTIES/COALITIONS & LEADERS: MONTENEGRO (2023)
+    >>> PARTIES/COALITIONS & LEADERS: PORTUGAL (2022)
+    >>> PARTIES/COALITIONS & LEADERS: TURKIYE (2023)
+
+
+))) PARTY IDENTIFIERS FROM OTHER COMPARATIVE STUDIES
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: AUSTRALIA (2022)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: BRAZIL (2022)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: DENMARK (2022)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: FRANCE (2022)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: MONTENEGRO (2023)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: PORTUGAL (2022)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: TURKIYE (2023)
+
+
+===========================================================================
+))) CSES ADVANCE RELEASE - WHAT USERS NEED TO KNOW
+===========================================================================
+
+This dataset and all accompanying documentation is the "First Advance 
+Release" of CSES Module 6 (2021-2026).
+
+An Advance Release is a preliminary version of this CSES product. It thus 
+lacks some of the checking, cleaning, processing, documentation, data, and 
+variables that we anticipate in the Full Release of this product. The 
+product is still in development, and data will be added gradually. Many 
+election studies and variables that will eventually be present in the CSES 
+Module 6 Full Release are unavailable in this file. Advance Releases are 
+provided as a service to the CSES user community for those analysts who find 
+it valuable to work with preliminary versions of the dataset. 
+
+Users should anticipate future changes and improvements to the naming, data, 
+and documentation of variables and election studies that appear in an 
+advanced release file. If users wish to re-use their programming syntax/code 
+on a future release of this product, we recommend that the code be written 
+to accommodate these potential changes.
+
+Users of the Advance Release may also wish to monitor the errata for CSES 
+Module 6 on the CSES website to check for known errors that may impact their 
+analyses. To view errata for CSES Module 6, go to Data Download on the CSES 
+website, navigate to the CSES Module 6 download page, and click on the 
+Errata link in the white box to the right of the page.
+
+We hope that until the Full Release of CSES Module 6 is available, users 
+will find this and future CSES Module 6 Advance Releases helpful in their 
+work. 
+
+
+===========================================================================
+))) CSES DESIGN, DOCUMENTATION, & WEIGHTS - ADVICE TO USERS
+===========================================================================
+
+We recommend that researchers become familiar with the CSES design, units 
+of analysis, documentation, and dataset weights before beginning their 
+investigations. For instance, while the set of respondents appearing within
+each election study represents their respective nations, the group of 
+nations that appear within CSES is not a random sample of countries 
+worldwide. Furthermore, while many election studies include 1,000 or so 
+respondents, other election studies may consist of over 10,000 respondents. 
+Some nations will have studies of more than one election in a CSES module,
+and occasionally there will be two independent studies of a single 
+election. Last, some election studies include over samples of specific 
+sub-populations or would otherwise benefit from use of the included weight
+variables. We hope you find our website and documentation useful as you 
+proceed with your work, and welcome any questions or suggestions you have.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 3: PARTIES & LEADERS"
+===========================================================================
+
+Part 3 of the CSES Codebook identifies the parties/coalitions participating 
+during a polity's national election and/or those participating in the 
+polity's previous national election. It also details the leaders of 
+parties/coalitions and/or Presidential candidates (where applicable) 
+for the most important parties/coalitions.
+Part 3 also lists the party identifiers in other comparative projects, 
+namely the Manifesto Research on Political Representation (MARPOR, formerly
+the Comparative Manifesto Project) and Party Facts. This will allow easy
+data bridging between CSES and these other projects.
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 6 CODEBOOK
+===========================================================================
+
+In the CSES MODULE 6 dataset, all variables begin with the letter "F" 
+(F being the sixth letter of the English alphabet and thus signifying 
+MODULE 6).
+
+The CSES codebook is especially extensive and users are advised that the 
+best way to navigate it is electronically. It is a .txt format which 
+allows it to be accessed via a variety of programs. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header 
+
+>>> = Sub-section Header 1
+
+<<>> = Sub-section Header 2 
+
++++ = Tables
+
+CSES QUESTION CLASSIFICATION = For survey level variables only, CSES  
+Question Classification details whether the variable is part of the CSES  
+Core component, which are questions asked repeatedly in CSES Modules, 
+whether a variable is part of the CSES Module Theme component, which are  
+questions specific to the Module Theme under exploration and might not be 
+included in CSES repeatedly, or whether a variable is a Derivative Variable, 
+which is explained below. 
+
+VARIABLE NOTES = Notes for particular variables 
+
+ELECTION STUDY NOTES = Notes for a particular election study  
+
+DERIVATIVE VARIABLE = Highlights a variable derived from another 
+variable or variables within the CSES.
+
+POTENTIAL POLITY LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at polity level.
+
+POTENTIAL REGIONAL LEVEL BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging at regional level.
+
+POTENTIAL TIME BRIDGING IDENTIFIER = 
+Highlights a variable that may be used for data bridging by time.
+
+POTENTIAL PARTY/COALITION LEVEL BRIDGING IDENTIFIER = Highlights a variable 
+that may be used for data bridging at party/coalition level.
+
+POTENTIAL CSES PRODUCT BRIDGING IDENTIFIER = Highlights a variable 
+that may be used for data bridging with other CSES products.
+
+For further details on the CSES MODULE 6 documentation, users are advised
+to consult Part 1 of the CSES Codebook. 
+
+
+===========================================================================
+))) CSES MODULE 6 CODING OF PARTIES/COALITIONS & LEADERS
+===========================================================================
+
+CSES codes parties/coalitions in its dataset numerically and
+alphabetically. Below we provide explanations of both of these coding
+schemes. The details of each party/coalition/leader classification are 
+available in Part 3 of the Codebook. 
+
+<<>> CSES NUMERICAL PARTY/COALITION CODING
+
+Each party is assigned a unique numerical code which consists of two 
+components and six digits in total:
+    - the first three digits indicate the numerical country UN code
+    - the latter three digits indicate the numerical party code within
+      the given election study.
+
+All parties/coalitions or Presidential candidates, where applicable,
+participating in the election or the previous election receive a numerical
+code. These codes are used to identify the following: 
+    - who a respondent voted for in the current election (variables F3011_).
+    - who the respondent voted for in the previous election 
+      (variables F3016_).
+    - the respondent's party identification (variable F3023_3).
+      
+The numeric coding is also used to identify macro level information about
+the parties/coalitions, namely: 
+    - numeric party code identifiers for relational data (variables F5000_)
+    - numeric party code identifiers for leaders' party affiliations
+      (variables F5000_L_)   
+    - which party/coalition held the Presidency before and after the
+      elections (variable F5019_1 and F5019_2).
+    - which party/coalition held the Prime Ministership before and after
+      the elections (variable F5020_1 and F5020_2).
+    - which party/coalition held the ministry of finance before and after
+      the elections (variable F5023_1 and F5023_2).
+    - which party/coalition held the foreign ministry before and after
+      the elections (variable F5023_3 and F5023_4).
+    - which party/coalition held the health ministry before and after
+      the elections (variable F5023_5 and F5023_6).
+     
+Numerical codes assigned to parties/coalitions are consistent for the 
+current and previous election.
+
+<<>> CSES ALPHABETICAL PARTY/COALITION CODING
+ 
+Parties A through F are the six most popular parties/coalitions, ordered in
+descending order of their share of the popular vote in the parliamentary 
+election (unless otherwise stated). Thus Party A is the party/coalition
+that received the most votes in the election, party B the second most
+votes, etc...
+
+Parties/coalitions who achieve at least 1% of the vote nationally are
+eligible for an alphabetical A-F assignment. In polities with multiple
+electoral tiers and where one vote is cast, parties are ordered according
+to their vote share in tier 1 (the lowest tier), unless otherwise stated.
+In polities where voters have two votes (i.e.: a constituency and a list
+vote) simultaneously, for example Germany, parties are ordered by the
+national share of the party list vote (tier 2) unless stated otherwise.
+
+Parties G, H, and I are supplemental parties. They may, but do not have to,
+accord with how parties A-F are ordered, that is ordered on the popular 
+share of the vote in a country. More often, they are codified in no 
+particular order. These parties are voluntarily provided by each country's
+election study and often reflect important or notable parties within a 
+country. They may also include data about individual parties within a 
+coalition, where data about the coalition and the individual parties, 
+or some of these parties that make it up, are provided.
+These codes are used to identify the following in the micro component of 
+the CSES dataset: 
+    - Respondent's likeability of the party/coalition (variable F3018).
+    - Respondent's left-right placement of the party/coalition (variable 
+      F3020).
+    - Respondent's placement of the party/coalition on an alternative 
+      scale, if applicable (variable F3021).
+
+These alphabetical codes are used to identify district and macro level
+information about these said parties/coalitions, namely:
+    - The said party/coalition's vote share in the respondent's electoral
+      district (variable F4004).
+    - the said party/coalition's share of the seats in the election in the
+      respondent's electoral district (variable F4005).
+    - the said party/coalition's share of the vote in the election 
+      (variables F5001, F5003, F5005, and F5006).
+    - the said party/coalition's share of the seats in the election 
+      (variables F5002 and F5004).
+    - the said party/coalition's share of cabinet portfolios before and 
+      after the election (variables F5021 and F5022).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's ideological family (variable F5028).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's left-right placement (variable F5029).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's placement on an alternative scale, if applicable 
+      (variable F5030).
+    - expert judgments by the national Collaborators of the said party/
+      coalition's level of populism (variable F5031).
+    - The said party/coalition's Manifesto Research on Political 
+      Representation (MARPOR/CMP) Identifier (variable F5200).
+    - The said party/coalition's Party Facts Identifier (variable F5203). 
+
+ 
+<<>> CSES ALPHABETICAL LEADER CODING
+         
+Leaders A through F tend to be the leaders of the six most popular parties/
+coalitions or the Presidential candidates of these parties. They correspond
+to parties A-F (i.e.: Leader A will be related to Party A in some way,
+Leader B will be related to Party B, etc.).
+
+Leaders G, H, and I are supplemental leaders. They may be related to
+parties G, H, I but they do not have to be. These leaders are voluntarily
+provided by each polities election study and often include data about
+additional personalities of interest. For example, in a parliamentary
+system, data about a President might be provided, even if the Presidency
+is not being contested. On many occasions, slots Leader G, H, and I will
+include additional data for parties/coalitions that have multiple leaders.
+These codes are used to identify the following in the micro and macro
+components of the CSES dataset: 
+    - Respondent's likeability of the leader/personality in question
+      (variable F3019).
+    - the said leader/personality's biological sex (F5000_L_ABS-IBS).
+
+
+===========================================================================
+))) PARTIES AND LEADER CLASSIFICATIONS FOR CSES MODULE 6 BY POLITY &  
+    ELECTION YEAR
+===========================================================================
+
+All parties/coalitions or Presidential candidates, where applicable, 
+participating in the election or the previous election receive a 
+numerical code. Alphabetical codes are assigned to select parties and 
+leaders (see above description on how parties/coalitions and leaders are
+coded by the CSES). 
+
+The party/coalition and leaders are listed in numerical order. CSES 
+provides the name of the party/coalition in the original language, the 
+English version of the party/coalition name, and the party abbreviation, 
+where available. Leaders are only listed for parties where we have 
+accompanying leader likeability data available. Polities are listed in 
+alphabetical order. The party/coalition and leaders are listed in numerical 
+order. 
+
+Users are advised to pay particular attention to ELECTION STUDY NOTES 
+listed below each polity's party and leader list for additional information
+regarding data availability and deviations. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES/COALITIONS & LEADERS: AUSTRALIA (2022)
+---------------------------------------------------------------------------
+
+036001. PARTY A  Labor Party (ALP)
+       LEADER A  Anthony Albanese
+
+           
+036002. PARTY B  Liberal Party (LP) - SEE ELECTION STUDY NOTES
+       LEADER B  Scott Morrison
+
+  
+036003. PARTY C  Australian Greens (AG)
+       LEADER C  Adam Bandt
+
+
+036004. PARTY D  One Nation (ON)
+
+
+036005. PARTY E  United Australia Party (UAP)
+
+
+036006. PARTY F  National Party of Australia (NP)
+       LEADER F  Barnaby Joyce 
+
+
+036007. PARTY G  Liberal Democratic Party (LDP)
+
+
+036008.          Katter's Australian Party (KAP)
+
+
+036009.          Centre Alliance (XEN)
+
+
+         | ELECTION STUDY NOTES - AUSTRALIA (2022): PARTIES AND LEADERS
+         |
+         | PARTY B (The Liberal Party, LP) combines the results for
+         | Liberal National Party (LNP, who contested only in Queensland
+         | state) and the Liberal Party (who contested in all other 
+         | states). 
+         | 
+         | Data is unavailable for PARTY D (One Nation, ON) for variables 
+         | F3018_D, F3019_D, and F3020_D. Data is unavailable for PARTY E
+         | (United Australia Party, UAP) for variables F3018_E, F3019_E, 
+         | and F3020_E. Data is unavailable for PARTY G (Liberal Democratic 
+         | Party, LDP) for variables F3018_G, F3019_G, and F3020_G.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES/COALITIONS & LEADERS: BRAZIL (2022)
+---------------------------------------------------------------------------
+
+076001. PARTY A  Partido dos Trabalhadores (PT) - SEE ELECTION STUDY NOTES
+                 Workers' Party
+       LEADER A  Luiz Inacio Lula da Silva - SEE ELECTION STUDY NOTES
+
+           
+076002. PARTY B  Partido Liberal (PL) - SEE ELECTION STUDY NOTES
+                 Liberal Party
+       LEADER B  Jair Bolsonaro - SEE ELECTION STUDY NOTES
+
+  
+076003. PARTY C  Movimento Democratico Brasileiro (MDB) - SEE ELECTION 
+                                                          STUDY NOTES
+                 Brazilian Democratic Movement
+       LEADER C  Simone Tebet - SEE ELECTION STUDY NOTES
+
+
+076004. PARTY D  Partido Democratico Trabalhista (PDT)
+                 Democratic Labor Party
+       LEADER D  Ciro Gomes - SEE ELECTION STUDY NOTES
+
+
+076005. PARTY E  Uniao Brazil (UNIAO) - SEE ELECTION STUDY NOTES
+                 Brazil Union                      
+       LEADER E  Luciano Bivar
+
+
+076006.          Partido Novo (NOVO)
+                 New Party
+
+076007.          Partido Trabalhista Brasileiro (PTB)
+                 Brazilian Labor Party 
+
+ 
+076008.          Unidade Popular (UP)
+                 Popular Unity 
+
+
+076009.          Partido Comunista Brasileiro (PCB)
+                 Brazilian Communist Party 
+
+
+076010.          Partido Socialista dos Trabalhadores Unificado (PSTU)
+                 United Socialist Workers' Party
+
+
+076011.          Democracia Crista (DC)
+                 Christian Democracy
+
+
+076012. PARTY F  Partido da Social Democracia Brasileira (PSDB) - 
+                 SEE ELECTION STUDY NOTES
+                 Brazilian Social Democratic Party 
+       LEADER F  Eduardo Leite
+
+
+076013. PARTY G  Partido Socialista Brasileiro (PSB) - SEE ELECTION STUDY 
+                                                       NOTES
+                 Brazilian Socialist Party
+       LEADER G  Geraldo Alckmin
+
+
+076014. PARTY H  Partido Progressista (PP) - SEE ELECTION STUDY NOTES
+                 Progressive Party
+       LEADER H  Arthur Lira
+
+
+076015. PARTY I  Podemos (PODE) - SEE ELECTION STUDY NOTES
+                 We can
+       LEADER I  Alvaro Dias
+
+
+076016.          Partido Social Democratico (PSD)
+                 Social Democratic Party 
+
+
+076017.          Republicanos - SEE ELECTION STUDY NOTES
+                 Republicans 
+
+
+076018.          Partido Socialismo e Liberdade (PSOL) - SEE ELECTION STUDY 
+                                                         NOTES
+                 Socialism and Liberty Party
+
+
+076019.          Avante - SEE ELECTION STUDY NOTES
+                 Forward
+
+
+076020.          Partido Social Cristao (PSC)
+                 Social Christian Party
+
+
+076021.          Solidariedade - SEE ELECTION STUDY NOTES
+                 Solidarity
+
+
+076022.          Cidadania - SEE ELECTION STUDY NOTES
+                 Citizenship
+
+
+076023.          Patriota (PATRI)
+                 Patriot
+
+
+076024.          Partido Comunista do Brasil (PC do B) - SEE ELECTION STUDY 
+                                                         NOTES
+                 Communist Party of Brazil
+
+
+076025.          Partido Verde (PV) - SEE ELECTION STUDY NOTES
+                 Green Party
+
+
+076026.          Partido Republicano da Ordem Social (PROS) - SEE ELECTION 
+                                                              STUDY NOTES
+                 Republican Party of the Social Order
+
+
+076027.          Rede Sustentabilidade (REDE) - SEE ELECTION STUDY NOTES
+                 Sustainability Network
+
+
+076028.          Partido Renovador Trabalhista Brasileiro (PRTB)
+                 Brazilian Labor Renewal Party
+
+
+076029.          Partido da Mobilizacao Nacional (PMN)
+                 Party of National Mobilization
+
+
+076030.          Agir - SEE ELECTION STUDY NOTES
+                 Act
+
+
+076031.          Partido da Mulher Brasileira (PMB)
+                 Brazilian Woman's Party
+
+
+076032.          Partido da Causa Operaria (PCO)
+                 Workers' Cause Party
+
+
+076033.          Partido Social Liberal (PSL) - SEE ELECTION STUDY NOTES
+                 Social Liberal Party
+
+
+076034.          Democratas (DEM) - SEE ELECTION STUDY NOTES
+                 Democrats
+
+
+076035.          Partido Patria Livre (PPL) - SEE ELECTION STUDY NOTES
+                 Free Fatherland Party
+
+
+076036.          Partido Humanista da Solidariedade (PHS) - SEE ELECTION   
+                                                            STUDY NOTES
+                 Humanist Party of Solidarity
+
+
+076037.          Partido Republicano Progressista (PRP) - SEE ELECTION 
+                                                          STUDY NOTES
+                 Progressive Republican Party
+
+
+         | ELECTION STUDY NOTES - BRAZIL (2022): PARTIES AND LEADERS
+         |
+         | LEADERS A-D were the Presidential candidates of their respective 
+         | parties or coalitions in the 2022 Presidential election.
+         |
+         | LEADER B, Jair Bolsonaro, was incumbent President and contested 
+         | the 2022 election for the Liberal Party (LP, PARTY B). He joined 
+         | the LP in 2021. However, researchers are advised that Bolsonaro
+         | contested the previous 2018 elections as a member of the Social 
+         | Liberal Party (PSL, NUMERICAL CODE 076033), a party he left in 
+         | 2019. 
+         | 
+         | PARTY E, Brazil Union (UNIAO, NUMERICAL CODE 076005) was founded
+         | in 2021 as a merger party of the Social Liberal Party (PSL, 
+         | NUMERICAL CODE 076033) - Bolsonaro's platform for the previous 
+         | 2018 election - and the Democrats (DEM, NUMERICAL CODE 
+         | 076034).
+         |
+         | PARTIES F-I, Brazilian Social Democratic Party (PSDB), 
+         | Brazilian Socialist Party (PSB), Progressive Party (PP), and 
+         | We Can (PODE) were assigned alphabetical codes because they were
+         | alliance members of PARTY A-C's Presidential candidate in the 
+         | 2022 election, and because there is relational data available 
+         | for them in F3018_, F3019_, and F3020_.
+         |
+         | Three alliances formed in the 2022 Brazilian Presidential
+         | election. Alliances are listed below and the numerical 
+         | classifications of alliances are arbitrary and denoted by CSES 
+         | for the ease of users. Where applicable, an * indicates the 
+         | dominant member(s) of the alliance.
+         |
+         | ALLIANCE 1 (Brazil of Hope) with the following parties contesting
+         | as part of this alliance:
+         | - Workers' Party* (PT), PARTY A, NUMERICAL CODE 076001. 
+         | - Brazilian Socialist Party (PSB), PARTY G, NUMERICAL CODE 
+         |   076013.
+         | - Socialism and Liberty Party (PSOL), NUMERICAL CODE 076018.
+         | - Forward, NUMERICAL CODE 076019.
+         | - Solidarity, NUMERICAL CODE 076021.
+         | - Communist Party of Brazil (PC do B), NUMERICAL CODE 076024.
+         | - Green Party (PV), NUMERICAL CODE 076025. 
+         | - Republican Party of the Social Order (PROS), NUMERICAL CODE 
+         |   0760026.
+         | - Sustainability Network (REDE), NUMERICAL CODE 076027. 
+         | - Act, NUMERICAL CODE 076030.
+         |
+         | ALLIANCE 2 (For the Good of Brazil) with the following parties
+         | contesting as part of this alliance:
+         | - Liberal Party (PL), PARTY B, NUMERICAL CODE 076002.
+         | - Progressive Party (PP), PARTY H, NUMERICAL CODE 076014.
+         | - Republicans, NUMERICAL CODE 076017.
+         |
+         | ALLIANCE 3 (Brazil For Everyone) with the following parties 
+         | contesting as part of this alliance:
+         | - Brazilian Democratic Movement (MDB), PARTY C, NUMERICAL CODE 
+         |   076003.
+         | - Brazilian Social Democracy Party (PSDB), PARTY F, 
+         |   NUMERICAL CODE 076012.
+         | - We can (PODE), PARTY I, NUMERICAL CODE 076015.
+         | - Citizenship, NUMERICAL CODE 076022.
+         |
+         | NUMERICAL CODE 076017: Republicans were known as Brazilian 
+         | Republican Party (PRB) until they adopted their current name
+         | in August 2019. 
+         |
+         | NUMERICAL CODES 0760033-0760037: Are numerical codes referring 
+         | to the Social Liberal Party (PSL), Democrats (DEM), Free 
+         | Fatherland Party (PPL), Humanist Party of Solidarity, and 
+         | Progressive Republican Party (PRP). As these parties 
+         | did not contest in the 2022 elections or no longer exist, 
+         | NUMERICAL CODES 0760033-0760037 are only used for classifying
+         | vote choice in the previous 2018 elections (variables F3016_).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES/COALITIONS & LEADERS: DENMARK (2022)
+---------------------------------------------------------------------------
+
+208001. PARTY A  Socialdemokratiet (SD)
+                 Social Democrats                     
+       LEADER A  Mette Frederiksen
+
+           
+208002. PARTY B  Venstre, Danmarks Liberale Parti (V)
+                 Venstre, Denmark's Liberal Party
+       LEADER B  Jakob Ellemann-Jensen
+
+  
+208003. PARTY C  Moderaterne (M)
+                 Moderates
+       LEADER C  Lars Lokke Rasmussen - SEE ELECTION STUDY NOTES
+
+
+208004. PARTY D  Socialistisk Folkeparti (SF)
+                 Socialist People's Party
+       LEADER D  Pia Olsen Dyhr
+
+
+208005. PARTY E  Danmarksdemokraterne - Inger Stojberg (DD)
+                 Denmark Democrats - Inger Stojberg
+       LEADER E  Inger Stojberg
+
+
+208006. PARTY F  Liberal Alliance (LA)
+                 Liberal Alliance
+       LEADER F  Alex Vanopslagh
+
+
+208007. PARTY G  Det Konservative Folkeparti (KF)
+                 Conservative People's Party
+       LEADER G  Soren Pape Poulsen
+
+
+208008. PARTY H  Enhedslisten - De Rod-Gronne (EL)
+                 Unity List - Red-Green Alliance
+       LEADER H  Mai Villadsen
+
+
+208009. PARTY I  Radikale Venstre (RV)
+                 Danish Social Liberal Party
+       LEADER I  Sofie Carsten Nielsen
+
+
+208010.          Nye Borgerlige (NB)
+                 The New Right
+
+
+208011.          Alternativet (A)
+                 The Alternative
+
+
+208012.          Dansk Folkeparti (DF)
+                 Danish People's Party
+
+
+208013.          Frie Gronne - Danmarks nye venstreflojsparti (FG)
+                 Independent Greens - Denmark's New Left-Wing Party
+
+
+208014.          Kristendemokraterne (KD)
+                 Christian Democrats
+
+
+208015.          Stram Kurs - SEE ELECTION STUDY NOTES
+                 Hard Line
+
+
+208016.          Klaus Riskaer Pedersen - SEE ELECTION STUDY NOTES
+                 Klaus Riskaer Pedersen List
+
+
+         | ELECTION STUDY NOTES - DENMARK (2022): PARTIES AND LEADERS
+         |
+         | LEADER C (Lars Lokke Rasmussen) served as Prime Minister of 
+         | Denmark from 2009 to 2011 and 2015 to 2019 as a member of the 
+         | Liberal Party (V, PARTY B, NUMERICAL CODE 208002). Rasmussen 
+         | left the Liberals in 2021 to form the Moderates (M, PARTY C, 
+         | NUMERICAL CODE 208003) ahead of the 2022 election. 
+         |      
+         | NUMERICAL CODES 208015 & 208016: Hard Line and Klaus Riskaer 
+         | Pedersen contested in the previous lower house election, 
+         | meaning NUMERICAL CODES 208015 and 208016 are only used for 
+         | coding F3016_LH_PL. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES/COALITIONS & LEADERS: FRANCE (2022)
+---------------------------------------------------------------------------
+
+250001. PARTY A  La Republique En Marche! (LREM)
+                 The Republic Onwards!
+       LEADER A  Emmanuel Macron 
+
+           
+250002. PARTY B  Rassemblement National (RN) 
+                 National Rally                                         
+       LEADER B  Marine Le Pen
+
+
+250003. PARTY C  La France Insoumise (FI)
+                 Indomitable France                     
+       LEADER C  Jean-Luc Melenchon 
+
+
+250004. PARTY D  Reconquete (REC)
+                 Reconquest                     
+       LEADER D  Eric Zemmour
+
+
+250005. PARTY E  Les Republicains (LR) 
+                 The Republicans 
+       LEADER E  Valerie Pecresse 
+
+
+250006. PARTY F  Europe Ecologie - Les Verts (EELV)
+                 Europe Ecology - The Greens                      
+       LEADER F  Yannick Jadot 
+
+
+250007.          Resistons!
+                 Resist!
+
+
+250008.          Parti Communiste Francais (PCF)
+                 French Communist Party
+
+
+250009.          Debout la France (DLF)
+                 France Arise 
+
+
+250010. PARTY G  Parti Socialiste (PS)
+                 Socialist Party                     
+
+
+250011.          Nouveau Parti Anticapitaliste (NPA)
+                 New Anticapitalist Party
+
+
+250012.          Lutte Ouvriere (LO)
+                 Workers' Struggle 
+
+
+250013.          Union Populaire Republicaine (UPR)
+                 Popular Republican Union
+
+
+250014.          Solidarite et Progres (S&P)
+                 Solidarity and Progress
+
+
+250015.          Mouvement Democrate (MoDem) 
+                 Democratic Movement
+
+
+         | ELECTION STUDY NOTES - FRANCE (2022): PARTIES & LEADERS
+         |
+         | LEADERS A-F were the Presidential candidates of their
+         | respective parties in the 2022 French Presidential Election.
+         | 
+         | PARTY B (National Rally, RN) changed its name in 2018. It was 
+         | known previously as National Front (FN).
+         |
+         | Data is unavailable for PARTY G (Socialist Party, PS) for 
+         | variable F3019_G.
+         |
+         | Two alliances formed for the 2022 French presidential election. 
+         | Alliances are listed below and the numerical classification of
+         | alliances are arbitrary and denoted by CSES for the ease of
+         | users. Where applicable, an * indicates the dominant member(s) of
+         | the alliance. 
+         | 
+         | ALLIANCE 1 (Together!) with the following parties contesting as
+         | part of this alliance:
+         | - The Republic Onwards! (LREM)*, PARTY A, NUMERICAL CODE 250001.
+         | - Democratic Movement (MoDem), NUMERICAL CODE 250015. 
+         | - Horizons (HOR)
+         | - Radical Movement
+         | - Union of the independent democrats
+         |
+         | ALLIANCE 2 (New Ecological and Social People's Union, Nupes) with 
+         | the following parties contesting as part of this alliance:
+         | - Indomitable France (FI)*, PARTY C, NUMERICAL CODE 250003.
+         | - Europe Ecology - The Greens (EELV), PARTY F, NUMERICAL CODE 
+         |   250006.
+         | - Socialist Party (PS), PARTY G, NUMERICAL CODE 250010.
+         | - French Communist Party (PCF), NUMERICAL CODE 250008.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES/COALITIONS & LEADERS: MONTENEGRO (2023)
+---------------------------------------------------------------------------
+
+499001. PARTY A  Pokret Evropa sad!
+                 Movement Europe Now!
+       LEADER A  Milojko Spaic 
+
+           
+499002.          Zajendo! (DPS-SD-DUA-LP) - SEE ELECTION STUDY NOTES
+                 Together!
+        PARTY B  Demokratska partija socijalista Crne Gore (DPS)
+                 Democratic Party of Socialists
+       LEADER B  Danijel Zivkovic
+
+  
+499003.          Za buducnost Crne Gore (NSD-DNP-RP) - SEE ELECTION STUDY 
+                                                       NOTES
+                 For the Future of Montenegro 
+        PARTY C  Nova srpska demokratija (NSD)
+                 New Serbian Democracy (NSD)                   
+       LEADER C  Andrija Mandic - SEE ELECTION STUDY NOTES
+
+
+499004.          Aleksa i Dritan - Hrabro se broji! (Demokrate-URA) - SEE  
+                                                     ELECTION STUDY NOTES
+                 Aleksa and Dritan - Count Bravely!
+        PARTY D  Gradjanski pokret Ujedinjena reformska akcija (URA) - 
+                                                   SEE ELECTION STUDY NOTES
+                 Civic Movement United Reform Action
+       LEADER D  Dritan Abazovic - SEE ELECTION STUDY NOTES
+
+
+499005. PARTY E  Bosnjacka stranka (BS)
+                 Bosniak Party
+       LEADER E  Ervin Ibrahimovic
+
+
+499006.          SNP - DEMOS - SEE ELECTION STUDY NOTES
+        PARTY F  Socijalisticka narodna partija Crne Gore (SNP)
+                 Socialist People's Party of Montenegro 
+       LEADER F  Vladimir Jokovic
+
+
+499007.          Socijaldemokratska partija Crne Gore (SDP)
+                 Social Democratic Party of Montenegro
+                 
+
+499008.          Pravda Za Sve!
+                 Justice for All! 
+
+
+499009.          Preokret za sigurnu Crnu Goru
+                 Reversal for a Safe Montenegro
+
+
+499010.          Albanska Alijansa - SEE ELECTION STUDY NOTES
+                 Albanian Alliance
+
+
+499011.          Narodna Koalicija - SEE ELECTION STUDY NOTES
+                 People's Coalition
+
+
+499012.          Hrvatska Gradanska Inicijativa (HGI)
+                 Croatian Civic Initiative
+
+
+499013.          Pokret za Promjene (PzP)
+                 Movement for Changes
+
+
+499014.          Da Mi Mozemo
+                 Yes we can
+
+
+499015.          Liberalna partija Crne Gore (LP)
+                 Liberal Party of Montenegro 
+
+
+499016.          Demokratski savez (DEMOS)
+                 Democratic Alliance
+         
+
+499017.          Albanska alternativa (AA)
+                 Albanian Alternative 
+
+
+499018.          Albanska lista (AL)    
+                 Albanian List
+
+
+499019.          Ujedinjena Crna Gora (UCG)
+                 United Montenegro
+
+
+499020.          Mir je nasa nacija - SEE ELECTION STUDY NOTES  
+                 Peace is Our Nation
+
+
+499021.          Otvorena gradjanska platforma "Crno na bijelo" - SEE 
+                                                ELECTION STUDY NOTES  
+                 Civic Platform "In Black and White"
+
+
+499022.          Albanska koalicija - SEE ELECTION STUDY NOTES 
+                 Albanian Coalition
+
+
+499097. PARTY G  Socijaldemokrate Crne Gore (SD) - SEE ELECTION STUDY NOTES
+                 Social Democrats of Montenegro
+       LEADER G  Damir Sehovic
+
+
+499098. PARTY H  Demokratska Narodna Partija (DNP) - SEE ELECTION STUDY 
+                                                     NOTES
+                 Democratic People's Party
+       LEADER H  Milan Knezevic
+
+
+499099. PARTY I  Demokratska Crna Gora (Demokrate) - SEE ELECTION STUDY 
+                                                     NOTES                 
+                 Democratic Montenegro
+       LEADER I  Aleksa Becic - SEE ELECTION STUDY NOTES
+
+
+         | ELECTION STUDY NOTES - MONTENEGRO (2023): PARTIES AND LEADERS
+         |
+         | LEADER C (Andrija Mandic) and LEADER I (Aleksa Becic) were 
+         | the Presidential candidates of their respective parties in the
+         | 2023 Montenegrin Presidential election.
+         |
+         | LEADER D (Dirtan Abazovic) was incumbent Prime Minister ahead of 
+         | the 2023 legislative election. However, Abazovic's government, 
+         | formed in April 2022, lost a motion of confidence in August 
+         | 2022, less than four months after his inauguration. 
+         | Afterward, Abazovic served as acting Prime Minister until the 
+         | June 11, 2023 snap elections.
+         |
+         | Seven alliances formed for the 2023 Montenegrin legislative 
+         | election. Alliances are listed below and the numerical 
+         | classification of alliances are arbitrary and denoted by CSES 
+         | for the ease of users. Where applicable, an * indicates the 
+         | dominant member(s) of the alliance. 
+         | 
+         | ALLIANCE 1 (Together! - NUMERICAL CODE 499002) with the 
+         | following parties contesting as part of this alliance:
+         | - Democratic Party of Socialists (DPS)*, PARTY B
+         | - Social Democrats of Montenegro (SD), PARTY G, 
+         |   NUMERICAL CODE 499097.
+         | - Liberal Party of Montenegro (LP), NUMERICAL CODE 499015.
+         | - Democratic Union of Albanians (DUA)
+         |
+         | For variable F3011_LH_PL, the NUMERICAL CODE 499002 refers to 
+         | Together. For variables F3016_LH_PL and F3023_3, this code 
+         | refers to the Democratic Party of Socialists (DPS) only, which 
+         | was the dominant member of the alliance.
+         |
+         | ALLIANCE 2 (For the Future of Montenegro - NUMERICAL CODE 
+         | 499003) with the following parties contesting as part of this 
+         | alliance:
+         | - New Serbian Democracy (NSD)*, PARTY C
+         | - Democratic People's Party (DNP), PARTY H, 
+         |   NUMERICAL CODE 499098.
+         | - Workers' Party (RP)
+         |
+         | For variables F3011_LH_PL and F3016_LH_PL, the NUMERICAL CODE 
+         | 499003 refers to the For the Future of Montenegro alliance. For 
+         | variable F3023_3, this code refers to New Serbian Democracy 
+         | (NSD) only, the dominant member of the alliance.
+         | 
+         | ALLIANCE 2 (For the Future of Montenegro) also contested in the 
+         | previous 2020 legislative election. In this past contest 
+         | (variable F3016_LH_PL), the alliance was additionally supported 
+         | by the following parties: 
+         | - Socialist People's Party (SNP), PARTY F, NUMERICAL CODE 
+         |   499006.
+         | - Movement for Changes (PzP), NUMERICAL CODE 499013.
+         | - United Montenegro (UCG), NUMERICAL CODE 499019.
+         | - True Montenegro (PCG)
+         | - Free Montenegro (SCG)
+         |
+         | ALLIANCE 3 (Aleksa and Dritan - Count Bravely!, NUMERICAL CODE 
+         | 499004) with the following parties contesting as part of this 
+         | alliance:
+         | - United Reform Action (URA), PARTY D
+         | - Democratic Montenegro (Demokrate), PARTY I, 
+         |   NUMERICAL CODE 499099.
+         |
+         | For variable F3011_LH_PL, the NUMERICAL CODE 499004 refers to 
+         | the alliance. For variable F3023_3, this code refers to 
+         | United Reform Action only, which was the party of the incumbent 
+         | prime minister ahead of the election.
+         | In the previous 2020 legislative election, Democratic 
+         | Montenegro participated in the alliance Peace is Our Nation 
+         | (NUMERICAL CODE 499020 in variable F3016_LH_PL).
+         |
+         | ALLIANCE 4 (SNP-DEMOS, NUMERICAL CODE 499006) with the following 
+         | parties contesting as part of this alliance: 
+         | - Socialist People's Party of Montenegro (SNP), PARTY F
+         | - Democratic Alliance (DEMOS), NUMERICAL CODE 499016.
+         |
+         | For variable F3011_LH_PL, the NUMERICAL CODE 499006 refers to 
+         | the SNP-DEMOS alliance. For variable F3023_3, this code refers 
+         | to the Socialist People's Party (SNP) only, which was the 
+         | dominant member of the alliance. In the previous 2020 
+         | legislative election, the SNP supported ALLIANCE 2, For the 
+         | Future of Montenegro (NUMERICAL CODE 499002 in F3016_LH_PL).
+         |
+         | ALLIANCE 5 (Albanian Alliance, NUMERICAL CODE 499010) with the 
+         | following parties contesting as part of this alliance: 
+         | - New Democratic Power (FORCA)*
+         | - Democratic Party of Albanians (DP)
+         | - Democratic League in Montenegro 
+         |
+         | ALLIANCE 6 (People's Coalition, NUMERICAL CODE 499011) with the 
+         | following parties contesting as part of this alliance: 
+         | - Christian Democratic Movement (DP)
+         | - True Montenegro (PCG)
+         | - Free Montenegro (SCG)
+         | - Democratic Serb Party (DSS)
+         | - Movement for Pljevlja 
+         |
+         | ALLIANCE 7 (Albanian Forum), with the following parties 
+         | contesting as part of this alliance: 
+         | - Albanian Alternative (AA), NUMERICAL CODE 499017.
+         | - Albanian Democratic Party (LDSH)
+         | - Albanian National Union (UNSH)
+         | As none of the respondents stated to have voted for the Albanian
+         | Forum in F3011_LH_PL, ALLIANCE 7 is not assigned a numerical 
+         | code in CSES Module 6. 
+         | 
+         | NUMERICAL CODES 499020. - 499022. Refer to electoral coalitions
+         | participating in the 2020 Montenegrin legislative election: 
+         |
+         | NUMERICAL CODE 499020. Peace is Our Nation, with the following 
+         | parties contesting as part of this alliance: 
+         | - Democratic Montenegro (Demokrate)*, PARTY I, 
+         |   NUMERICAL CODE 499099.
+         | - Democratic Alliance (DEMOS), NUMERICAL CODE 499016.
+         | - The New Left (NL)
+         | - Party of Pensioners, Disabled and Restitution (PUPI)
+         |
+         | NUMERICAL CODE 499021. Civic Platform "In Black and White", 
+         | consisting of
+         | - United Reform Action (URA)*, PARTY D, NUMERICAL CODE 499004.
+         | - Citizens' Union "Civis" (Civis)
+         | and other independent candidates.
+         |
+         | NUMERICAL CODE 499022. Albanian Coalition, with the following 
+         | parties contesting as part of this alliance:
+         | - Democratic Union of Albanians (DUA)
+         | - Democratic Party (DP)
+         | - Democratic League in Montenegro
+
+
+---------------------------------------------------------------------------
+>>> PARTIES/COALITIONS & LEADERS: PORTUGAL (2022)
+---------------------------------------------------------------------------
+
+620001.  PARTY A  Partido Socialista (PS)
+                  Socialist Party                     
+        LEADER A  Antonio Costa
+
+
+620002.  PARTY B  Partido Social Democrata (PPD/PSD)
+                  Social Democratic Party                     
+        LEADER B  Rui Rio
+
+
+620003.  PARTY C  Chega (CH)
+                  Enough!
+        LEADER C  Andre Ventura
+
+
+620004.  PARTY D  Iniciativa Liberal (IL)
+                  Liberal Initiative 
+        LEADER D  Joao Cotrim de Figueiredo
+
+
+620005.  PARTY E  Bloco de Esquerda (BE)
+                  Left Bloc                   
+        LEADER E  Catarina Martins
+
+
+620006.  PARTY F  Coligacao Democratica Unitaria (CDU)
+                  Unitarian Democratic Coalition - SEE ELECTION STUDY NOTES
+        LEADER F  Jeronimo de Sousa - SEE ELECTION STUDY NOTES
+
+
+620007.  PARTY G  Centro Democratico e Social - Partido Popular (CDS-PP)
+                  Democratic and Social Center - People's Party
+        LEADER G  Francisco Rodrigues dos Santos
+
+
+620008.  PARTY H  Pessoas - Animais - Natureza (PAN)
+                  Party for People, Animals and Nature                  
+        LEADER H  Ines Sousa Real
+
+
+620009.  PARTY I  LIVRE (L)
+                  FREE
+        LEADER I  Rui Tavares
+
+
+         | ELECTION STUDY NOTES - PORTUGAL (2022): PARTIES & LEADERS
+         |
+         | One alliance formed in the 2022 Portuguese parliamentary 
+         | election. Alliances are listed below and the numerical 
+         | classification of alliances are arbitrary and denoted by CSES for 
+         | the ease of users. Where applicable, an * indicates the dominant 
+         | member(s) of the alliance.    
+         |
+         | ALLIANCE 1 (Unitarian Democratic Coalition, CDU, PARTY F, 
+         | NUMERICAL CODE 620006) with the following parties contesting 
+         | as part of this alliance:
+         | - Portuguese Communist Party* (PCP)
+         | - Ecologist Party "The Greens" (PEV)
+         | Since the beginning of the coalition in 1987, the member parties
+         | have always participated jointly as an electoral coalition.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES/COALITIONS & LEADERS: TURKIYE (2023)
+---------------------------------------------------------------------------
+
+792001.  PARTY A  Adalet Ve Kalkinma Partisi (AKP)
+                  Justice and Development Party                     
+        LEADER A  Recep Tayyip Erdogan - SEE ELECTION STUDY NOTES
+
+           
+792002.  PARTY B  Cumhuriyet Halk Partisi (CHP)
+                  Republican People's Party
+        LEADER B  Kemal Kilicdaroglu - SEE ELECTION STUDY NOTES
+
+
+999989.  PARTY C  Sinan Ogan - SEE ELECTION STUDY NOTES
+
+
+792004.  PARTY D  Memleket Partisi - SEE ELECTION STUDY NOTES
+                  Homeland Party
+
+
+792010.  PARTY F  Milliyetci Hareket Partisi (MHP) - SEE ELECTION STUDY 
+                                                     NOTES
+                  Nationalist Action Party
+        LEADER F  Devlet Bahceli
+
+
+792011.  PARTY G  Iyi Parti (IYI) - SEE ELECTION STUDY NOTES
+                  Good Party                     
+        LEADER G  Meral Aksener
+
+
+792012.  PARTY H  Yesiller ve Sol Gelecek Partisi (YSP) - SEE ELECTION 
+                                                          STUDY NOTES
+                  Party of Greens and the Left Future
+        LEADER H  Cigdem Kilicgun Ucar/Ibrahim Akin - SEE ELECTION STUDY 
+                                                      NOTES
+
+792013.  PARTY I  Yeniden Refah Partisi (YRP) - SEE ELECTION STUDY NOTES
+                  New Welfare Party
+        LEADER I  Fatih Erbakan
+
+
+792014.           Zafer Partisi (ZP)
+                  Victory Party
+
+
+792015.           Turkiye Isci Partisi (TIP)
+                  Workers' Party of Turkey
+
+
+792016.           Buyuk Birlik Partisi (BBP)
+                  Grand Unity Party
+
+
+792017.           Saadet Partisi (SP) - SEE ELECTION STUDY NOTES
+                  Felicity Party 
+
+
+792018.           Halklarin Demokratik Partisi (HDP) - SEE ELECTION STUDY 
+                                                       NOTES
+                  People's Democratic Party
+                  
+
+         | ELECTION STUDY NOTES - TURKIYE (2023): PARTIES & LEADERS
+         |
+         | LEADER A (Recep Tayyip Erdogan) and LEADER B (Kemal Kilicdaroglu)  
+         | were the Presidential candidates of their respective parties/
+         | coalitions in the 2023 Presidential Election.
+         |
+         | PARTY C (Sinan Ogan) contested the 2023 Presidential elections 
+         | as independent candidate. 
+         | Data for him and PARTY D (Homeland Party) are unavailable for 
+         | F3018_, F3019_, and F3020_. However, macro data are available
+         | for PARTY C and D, which is why they were assigned an 
+         | alphabetical code. 
+         |
+         | PARTY F (Nationalist Movement Party), PARTY G (Good Party),
+         | PARTY H (Peoples' Equality and Democracy Party) and PARTY I 
+         | (New Welfare Party) did not nominate candidates for the  
+         | Presidential elections, but contested in the 2023 parliamentary 
+         | election. They were assigned an alphabetical code because 
+         | relational data is available for them in F3018_, F3019_ and 
+         | F3020_. 
+         |
+         | PARTY H contested the 2023 elections as Party of Greens and the 
+         | Left Future (YSP). However, the party was rebranded as Peoples' 
+         | Equality and Democracy Party (DEM Parti) in October 2023.
+         |
+         | LEADER H Cigdem Kilicgun Ucar/Ibrahim Akin refers to the 
+         | co-chairs of PARTY H (Party of Greens and the Left Future) held 
+         | by Cigdem Kilicgun Ucar and Ibrahim Akin. Respondents were asked 
+         | to rate both of them jointly for F3018_H. Collaborators note 
+         | that both leaders are of equal importance.
+         |
+         | Four alliances formed in the 2023 Turkish general election.
+         | Alliances are listed below and the numerical classification of
+         | alliances are arbitrary and denoted by CSES for the ease of 
+         | users. Where applicable, an * indicates the dominant member(s) 
+         | of the alliance.
+         |
+         | ALLIANCE 1 (The People's Alliance) with the following parties 
+         | contesting as part of this alliance:
+         | - Justice and Development Party* (AKP), PARTY A, NUMERICAL CODE 
+         |   792001. 
+         | - Nationalist Action Party (MHP), PARTY F, NUMERICAL CODE 792010.
+         | - New Welfare Party (YRP), PARTY I, NUMERICAL CODE 792013.
+         | - Grand Unity Party (BBP), NUMERICAL CODE 792016.
+         | ALLIANCE 1 supported LEADER A (Recep Tayyip Erdogan) in the 2023
+         | Presidential elections.
+         |
+         | ALLIANCE 2 (The Nation Alliance) with the following parties 
+         | contesting as part of this alliance:
+         | - Republican People's Party* (CHP), PARTY B, NUMERICAL CODE 
+         |   792002.
+         | - Good Party (IYI), PARTY G, NUMERICAL CODE 792011.
+         | - Felicity Party (SP), NUMERICAL CODE 792017.
+         | - Future Party (GP)
+         | - Democracy and Progress Party (DEVA)
+         | - Democrat Party (DP)
+         | ALLIANCE 2 supported LEADER B (Kemal Kilicdaroglu) in the 2023
+         | Presidential elections.
+         |
+         | ALLIANCE 3 (Labor and Freedom Alliance) with the following 
+         | parties contesting as part of this alliance:
+         | - Green Left Party (YSP), PARTY H, NUMERICAL CODE 792012.
+         | - Workers' Party of Turkey (TIP), NUMERICAL CODE 792015.
+         | ALLIANCE 3 supported LEADER B (Kemal Kilicdaroglu) in the 2023
+         | Presidential elections.
+         |
+         | ALLIANCE 4 (Ancestral Alliance) with the following parties 
+         | contesting as part of this alliance:
+         | - Victory Party (ZP), NUMERICAL CODE 792014.
+         | - Justice Party (AP)
+         | ALLIANCE 4 supported Sinan Ogan (PARTY C) in the first round of 
+         | the 2023 Presidential elections.
+         |
+         | NUMERICAL CODE 792017: Felicity Party (SP) contested the 2023 
+         | parliamentary election from the list of the Republican People's
+         | party (CHP, PARTY B). 
+         |
+         | NUMERICAL CODE 792018: People's Democratic Party (HDP) contested  
+         | the 2023 parliamentary election from the list of the Party of 
+         | Greens and the Left Future (YSP, PARTY H), to circumvent a
+         | potential closure by the Constitutional Court ahead of the 
+         | elections.
+
+
+===========================================================================
+))) PARTY IDENTIFIERS FROM OTHER COMPARATIVE STUDIES 
+===========================================================================
+
+For all parties/coalitions that are assigned an alphabetical classification
+in CSES MODULE 6, CSES provides identifiers from two other comparative
+projects, namely the Manifesto Research on Political Representation (MARPOR,
+formerly the Comparative Manifesto Project, CMP) Project, and the Party 
+Facts Database.
+ 
+Below, we list the identifiers assigned by each project to a party/coalition
+included in CSES MODULE 6 and which have been assigned an alphabetical
+classification. This allows for data bridging between CSES MODULE 6 and
+these datasets at the party/coalition level.
+ 
+Data are listed in CSES Codebook Part 3 only for polities and
+parties/coalitions where information is available in the accompanying
+dataset. When unavailable for a polity or party/coalition, this is listed
+in the CSES MODULE 6 dataset as "999999. NOT AVAILABLE IN MANIFESTO RESEARCH
+ON POLITICAL REPRESENTATION PROJECT" or "9999. NOT AVAILABLE ..." for all
+other projects. In the documentation below, when data is unavailable for a
+particular party/coalition in a polity/study where data is mostly available,
+it is listed as "999999" or "9999". In cases where data is unavailable for
+all parties/coalitions for a particular polity/study, there is no
+corresponding documentation entry below. 
+ 
+Polities are listed in alphabetical order. Parties/coalitions are listed in
+order of their A-I assignment in each polity. In circumstances where there
+are multiple elections that are included in MODULE 6 for one polity,
+parties/coalitions are first listed according to alphabetical assignment for
+the first election study in question.
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: AUSTRALIA (2022)
+---------------------------------------------------------------------------
+
+PARTY NAME (Abbreviation)                         MARPOR/CMP    Party Facts
+---------------------------------------------------------------------------
+Labor Party (ALP)                                      63320            424
+Liberal Party (LP)                                     63620            486
+Australian Greens (AG)                                 63110           1209
+One Nation (ON)                                       999999           1162
+United Australia Party (UAP)                           63410           1996
+National Party of Australia (NP)                       63810           1743
+Liberal Democratic Party (LDP)                        999999           9149
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: BRAZIL (2022)
+---------------------------------------------------------------------------
+
+PARTY NAME (Abbreviation)                                       Party Facts
+---------------------------------------------------------------------------
+Workers' Party (PT)                                                     356
+Liberal Party (PL)                                                     4405
+Brazilian Democratic Movement (MDB)                                     654
+Democratic Labor Party (PDT)                                           1009
+Brazil Union (UNIAO)                                                   9999
+Brazilian Social Democratic Party (PSDB)                                225
+Brazilian Socialist Party (PSB)                                         723
+Progressive Party (PP)                                                  781
+We can (PODE)                                                          4650
+
+
+         | ELECTION STUDY NOTES - BRAZIL (2022): PARTY IDS FROM OTHER
+         |                                       COMPARATIVE STUDIES
+         |
+         | MARPOR/CMP identifiers are unavailable for any parties assigned
+         | an alphabetical classification in CSES MODULE 6.
+         | However, researchers are advised that MARPOR/CMP codes are 
+         | available for all three alliances formed for the 2022 Brazilian
+         | general election. 
+         | In what follows, alliances, their member parties, and the 
+         | associated MARPOR/CMP codes are listed for each alliance. 
+         |
+         | ALLIANCE 1 (Brazil of Hope) with the following parties contesting
+         | as part of this alliance:
+         | - Workers' Party (PT), PARTY A.
+         | - Brazilian Socialist Party (PSB), PARTY G. 
+         | and other smaller parties (see PARTIES/COALITIONS & LEADERS: 
+         | BRAZIL (2022) in this Codebook Part for a complete list). 
+         | MARPOR/CMP data for this alliance for this contest is available 
+         | under code:
+         | - 180230 (Brazil of Hope).
+         |
+         | ALLIANCE 2 (For the Good of Brazil) with the following parties
+         | contesting as part of this alliance:
+         | - Liberal Party (PL), PARTY B.
+         | - Progressive Party (PP), PARTY H.
+         | - Republicans (no alphabetical code assigned).
+         | MARPOR/CMP data for this alliance for this contest is available 
+         | under code:
+         | - 180620 (For the Good of Brazil).    
+         |
+         | ALLIANCE 3 (Brazil For Everyone) with the following parties 
+         | contesting as part of this alliance:
+         | - Brazilian Democratic Movement (MDB), PARTY C.
+         | - Brazilian Social Democracy Party (PSDB), PARTY F.
+         | - We can (PODE), PARTY I.
+         | - Citizenship (no alphabetical code assigned).
+         | MARPOR/CMP data for this alliance for this contest is available 
+         | under code:
+         | - 180311 (Brazil for Everyone).
+         |
+         | The above-listed MARPOR/CMP codes were used for obtaining RILE
+         | scores for F3011_LR_MARPOR and F3100_LR_MARPOR for the 2022 
+         | Presidential election.
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: DENMARK (2022)
+---------------------------------------------------------------------------
+
+PARTY NAME (Abbreviation)                         MARPOR/CMP    Party Facts
+---------------------------------------------------------------------------
+Social Democrats (SD)                                  13320            379
+Left, Denmark's Liberal Party (V)                      13420           1204
+Moderates (M)                                         999999           9063
+Socialist People's Party (SF)                          13230            329
+Denmark Democrats (DD)                                999999           9062
+Liberal Alliance (LA)                                  13001            212
+Conservative People's Party (KF)                       13620            536
+Unity List - Red-Green Alliance (EL)                   13229           1527
+Danish Social Liberal Party (RV)                       13410           1507
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: FRANCE (2022)
+---------------------------------------------------------------------------
+
+PARTY NAME (Abbreviation)                         MARPOR/CMP    Party Facts
+---------------------------------------------------------------------------
+The Republic Onwards! (LREM)                           31425           5857
+National Rally (RN)                                    31720            433
+Indomitable France (FI)                                31240           5858
+Reconquest (REC)                                      999999           9064
+The Republicans (LR)                                   31626           8168
+Europe Ecology - The Greens (EELV)                     31110           5650
+Socialist Party (PS)                                   31320           1478
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: MONTENEGRO (2023)
+---------------------------------------------------------------------------
+
+PARTY NAME (Abbreviation)                         MARPOR/CMP    Party Facts
+---------------------------------------------------------------------------
+Europe Now!                                            91445           9999
+Democratic Party of Socialists (DPS) ##                91220           3162
+New Serbian Democracy (NSD) ##                         91910           3252
+Civic Movement United Reform Action (URA) ##           91322           5468
+Bosniak Party (BS)                                     91920           3255
+Socialist People's Party of Montenegro (SNP)           91224           3104
+Social Democrats of Montenegro (SD) ##                 91324           5470
+Democratic People's Party (DNP) ##                    999999           6624
+Democratic Montenegro (Demokrate) ##                   91440           5469
+
+## = SEE ELECTION STUDY NOTES
+
+         | ELECTION STUDY NOTES - MONTENEGRO (2023): PARTY IDS FROM OTHER
+         |                                           COMPARATIVE STUDIES
+         |
+         | Democratic Party of Socialists (DPS), Social Democrats of 
+         | Montenegro (SD), Democratic Union of Albanians (DUA), and Liberal
+         | Party of Montenegro (LP) formed the alliance "Together! 
+         | (DPS-SD-DUA-LP)" in the 2023 legislative election.  
+         | For this contest, MARPOR/CMP does not include data on DPS or SD. 
+         | Instead, the alliance is classified. MARPOR/CMP data for the
+         | "Together!" alliance for this contest is available under 
+         | code:
+         | - 91021 (Together!).
+         |
+         | New Serbian Democracy (NSD), Democratic People's Party (DNP) and
+         | Workers' Party (RP) formed the alliance "For the Future of 
+         | Montenegro (NSD-DNP-RP)" in the 2023 election.  
+         | For this contest, MARPOR/CMP does not include data on the NSD or 
+         | DNP. Instead, the alliance is classified. MARPOR/CMP data for 
+         | the "For the Future of Montenegro" alliance for this contest is 
+         | available under code:
+         | - 91090 (For the Future of Montenegro).
+         | 
+         | United Reform Action (URA) and Democratic Montenegro (Demokrate) 
+         | formed the alliance "Aleksa and Dritan - Count Bravely! 
+         | (Demokrate-URA)" in the 2023 election.  
+         | For this contest, MARPOR/CMP does not include data on URA or 
+         | Demokrate. Instead, the alliance is classified. MARPOR/CMP data 
+         | for the "Count Bravely!" alliance for this contest is available 
+         | under code:
+         | - 91041 (Aleksa and Dritan - Count Bravely!).
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: PORTUGAL (2022)
+---------------------------------------------------------------------------
+
+PARTY NAME (Abbreviation)                         MARPOR/CMP    Party Facts
+---------------------------------------------------------------------------
+Socialist Party (PS)                                   35311            655
+Social Democratic Party (PPD/PSD)                      35313           1359
+Enough (CH)                                            35720           8182
+Liberal Initiative (IL)                                35410           8640
+Left Bloc (BE)                                         35211           1310
+Unitarian Democratic Coalition (CDU)                   35229            284
+Democratic and Social Centre - People's Party (CDS-PP) 35520           1308
+Party for People, Animals and Nature (PAN)             35120             97
+Free (L)                                               35130           3225
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: TURKIYE (2023)
+---------------------------------------------------------------------------
+
+PARTY NAME (Abbreviation)                         MARPOR/CMP    Party Facts
+---------------------------------------------------------------------------
+Justice and Development Party (AKP)                    74628            306
+Republican People's Party (CHP)                        74321           1060
+Sinan Ogan (Independent)                              999999           9999
+Homeland Party                                        999999           9999
+Nationalist Movement Party (MHP)                       74712           1610
+Good Party (IYI)                                       74640           6236
+Party of Greens and the Left Future (YSP)             999999           9137
+New Welfare Party (YRP)                               999999           9999
+
+
+//END OF FILE
