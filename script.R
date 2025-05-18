@@ -92,3 +92,41 @@ tillid_dk <- tillid_dk |>
       panel.grid.minor = element_blank()
     ) +
     ylim(0, 400)
+#uafhængig variabel - uddannelse
+  #remove NAs
+  tillid_dk <- tillid_dk |>
+    mutate(uddannelse = na_if(uddannelse, 97),
+           uddannelse = na_if(uddannelse, 98),
+           uddannelse = na_if(uddannelse, 10))
+  #labels
+  tillid_dk <- tillid_dk |>
+    mutate(uddannelse_grp = case_when(
+      uddannelse %in% 1:2 ~ "Grundskole",
+      uddannelse %in% 3:4     ~ "Gymnasial",
+      uddannelse == 5     ~ "Erhvervsfaglig",
+      uddannelse == 6     ~ "Kort videregående",
+      uddannelse == 7     ~ "Mellemlang videregående",
+      uddannelse == 8     ~ "Lang videregående",
+      uddannelse == 9     ~ "Forskeruddannelse",
+      TRUE ~ NA_character_
+    )) |>
+    mutate(uddannelse_grp = factor(uddannelse_grp, levels = c(
+      "Grundskole", "Gymnasial", "Erhvervsfaglig",
+      "Kort videregående", "Mellemlang videregående", "Lang videregående", "Forskeruddannelse"
+    )))
+  #visualisering
+  ggplot(tillid_dk, aes(x = uddannelse_grp, y = tillid)) +
+    geom_boxplot(fill = "#3B82F6", color = "black", outlier.shape = NA) +
+    labs(
+      title = "Politisk tillid fordelt på uddannelsesniveau (2022)",
+      x = "Uddannelsesniveau",
+      y = "Politisk tillid (1 = lav, 4 = høj)"
+    ) +
+    theme_minimal(base_size = 13) +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5),
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      axis.title = element_text(size = 12)
+    ) +
+    ylim(1, 4)
+  
