@@ -5,6 +5,8 @@ library(haven)
 library(tidyverse)
 library(scales)  
 library(psych)
+library(dplyr)
+library(tidyr)
 library(e1071)
 # Typetal funktion
 getmode <- function(x) {
@@ -23,7 +25,10 @@ parlament = F3007_1,
 regering = F3007_2,
 domstol = F3007_3,
 partier = F3007_5,
-    uddannelse = F2003
+    uddannelse = F2003,
+køn = F2002,
+indkomst = F2010_2,
+alder = F2001_A
   )
 # Fjern 98 = ønsker ikke at svare og 99 = ved ikke
 tillid_dk  <- tillid_dk  |>
@@ -114,6 +119,15 @@ tillid_dk <- tillid_dk |>
       "Grundskole", "Gymnasial", "Erhvervsfaglig",
       "Kort videregående", "Mellemlang videregående", "Lang videregående", "Forskeruddannelse"
     )))
+  #sammenligning af værdier
+  tillid_dk |>
+    group_by(uddannelse_grp) |>
+    summarise(
+      n = n(),
+      mean = round(mean(tillid, na.rm = TRUE), 2),
+      median = median(tillid, na.rm = TRUE),
+      sd = round(sd(tillid, na.rm = TRUE), 2)
+    )
   #visualisering
   ggplot(tillid_dk, aes(x = uddannelse_grp, y = tillid)) +
     geom_boxplot(fill = "#3B82F6", color = "black", outlier.shape = NA) +
@@ -129,4 +143,113 @@ tillid_dk <- tillid_dk |>
       axis.title = element_text(size = 12)
     ) +
     ylim(1, 4)
+  # Kategorisér politisk tillid i tre grupper
+  tillid_dk <- tillid_dk |>
+    mutate(
+      tillid_kat = case_when(
+        tillid < 2.5 ~ "Lav",
+        tillid >= 2.5 & tillid < 3.25 ~ "Middel",
+        tillid >= 3.25 ~ "Høj",
+        TRUE ~ NA_character_
+      ),
+      tillid_kat = factor(tillid_kat, levels = c("Lav", "Middel", "Høj"))
+    )
+  
+  # Krydstabel med procent i hver tillidskategori inden for hver uddannelsesgruppe
+tabel_kryds <- tillid_dk |>
+  filter(!is.na(uddannelse_grp), !is.na(tillid_kat)) |>
+  count(uddannelse_grp, tillid_kat) |>
+  group_by(uddannelse_grp) |>
+  mutate(total = sum(n)) |>
+  mutate(procent = case_when(
+    tillid_kat == "Lav"    ~ round(100 * n / total, 1),
+    tillid_kat == "Middel" ~ round(100 * n / total, 1),
+    tillid_kat == "Høj"    ~ 100 - sum(round(100 * n / total, 1)[tillid_kat != "Høj"]),
+    TRUE ~ NA_real_
+  )) |>
+  select(uddannelse_grp, tillid_kat, procent)
+  # Vis tabellen i bredt format
+  krydstabel_bred <- tabel_kryds |>
+    pivot_wider(names_from = tillid_kat, values_from = procent)
+  
+  # Udskriv
+  print(krydstabel_bred)
+  # Beregn totalfordeling på tværs af alle uddannelsesgrupper
+  total_row <- tillid_dk |>
+    filter(!is.na(tillid_kat)) |>
+    count(tillid_kat) |>
+    mutate(procent = round(100 * n / sum(n), 1)) |>
+    pivot_wider(names_from = tillid_kat, values_from = procent) |>
+    mutate(uddannelse_grp = "Total") |>
+    select(uddannelse_grp, Lav, Middel, Høj)
+  
+  # Kombinér med eksisterende tabel
+  krydstabel_med_total <- bind_rows(krydstabel_bred, total_row)
+  
+  # Udskriv
+  print(krydstabel_med_total)
+  #OLS
+  # Rens og gruppér køn
+  tillid_dk <- tillid_dk |>
+    mutate(
+      køn = na_if(køn, 7),
+      køn = na_if(køn, 8),
+      køn_faktor = factor(køn, levels = c(1, 0), labels = c("Kvinde", "Mand"))
+    )
+  
+  # Rens og grupper uddannelse
+  tillid_dk <- tillid_dk |>
+    mutate(uddannelse = na_if(uddannelse, 97),
+           uddannelse = na_if(uddannelse, 98),
+           uddannelse = na_if(uddannelse, 10)) |>
+    mutate(uddannelse_grp = case_when(
+      uddannelse %in% 1:2 ~ "Grundskole",
+      uddannelse %in% 3:4 ~ "Gymnasial",
+      uddannelse == 5     ~ "Erhvervsfaglig",
+      uddannelse == 6     ~ "Kort videregående",
+      uddannelse == 7     ~ "Mellemlang videregående",
+      uddannelse == 8     ~ "Lang videregående",
+      uddannelse == 9     ~ "Forskeruddannelse",
+      TRUE ~ NA_character_
+    ),
+    uddannelse_grp = factor(uddannelse_grp, levels = c(
+      "Grundskole", "Gymnasial", "Erhvervsfaglig",
+      "Kort videregående", "Mellemlang videregående", "Lang videregående", "Forskeruddannelse"
+    )))
+  
+  # Rens og grupper alder
+  tillid_dk <- tillid_dk |>
+    mutate(alder = na_if(alder, 999),
+           alder_grp = case_when(
+             alder >= 18 & alder <= 29 ~ "18-29",
+             alder >= 30 & alder <= 39 ~ "30-39",
+             alder >= 40 & alder <= 49 ~ "40-49",
+             alder >= 50 & alder <= 59 ~ "50-59",
+             alder >= 60 & alder <= 69 ~ "60-69",
+             alder >= 70              ~ "70+",
+             TRUE ~ NA_character_
+           ),
+           alder_grp = factor(alder_grp, levels = c(
+             "18-29", "30-39", "40-49", "50-59", "60-69", "70+"
+           )))
+  
+  # Kør OLS-regression
+  # Model 1: Kun uddannelse
+  m1 <- lm(tillid ~ uddannelse_grp, data = tillid_dk)
+  
+  # Model 2: + køn
+  m2 <- lm(tillid ~ uddannelse_grp + køn_faktor, data = tillid_dk)
+  
+  # Model 3: + alder
+  m3 <- lm(tillid ~ uddannelse_grp + køn_faktor + alder_grp, data = tillid_dk)
+  
+  summary(m1)
+  summary(m2)
+  summary(m3)
+
+  
+  model_tillid <- lm(tillid ~ køn_faktor + alder_grp + uddannelse_grp, data = tillid_dk)
+  
+  # Vis output
+  summary(model_tillid)
   
